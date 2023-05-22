@@ -38,10 +38,9 @@ Publications
 ------
 Alston, J. M., Pardey, P. G. Serfas, D., and S. Wang. 2023. Slow Magic: Agricultural Versus Industrial R&D Lag Models. *Annual Review of Resource Economics*, 15:1.
 
-Serfas, D., Gray, R., and P. Slade. 2018. Congestion and Distribution of Rents in Wheat Export Sector: A Canada–US Cross‐Border Comparison. *Canadian Journal of Agricultural Economics/Revue canadienne d'agroeconomie*, 66(2): 187-207.
+Serfas, D., Gray, R., and P. Slade. 2018. Congestion and Distribution of Rents in Wheat Export Sector: A Canada–US Cross‐Border Comparison. *Canadian Journal of Agricultural Economics/Revue canadienne d'agroeconomie*, 66(2): 187-207. 
 
-**Other Publications**
-
+**Other Publications** <br />
 Serfas, D. and R. Gray. 2019. An Evaluation of Value Creation Models for Pulses in western Canada. A report prepared for the Crop Development Center. Saskatoon, SK.
 
 Working Papers
@@ -55,10 +54,11 @@ Teaching
 **Teaching Assistant**
 
 Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020 <br />
-   [Spring Teaching Evaluations](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
+   Spring TA Rating *(4.3/5)*. [Spring Teaching Evaluations](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
+   
   
-   [Fall Teaching Evaluations](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Fall_2020.pdf)
-
+   Fall TA Rating *(4.3/5)*. [Fall Teaching Evaluations](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Fall_2020.pdf)
+   
 Grain and Livestock Marketing *(AREC 343)*. University of Saskatchewan, 2018
 
 Principles of Sales *(AREC 346)*. University of Saskatchewan, 2017
