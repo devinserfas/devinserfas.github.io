@@ -25,13 +25,13 @@ Dissertation
 
 Education
 ======
-PhD. in Agricultural and Resource Economics *(Expected 2024)*
-University of California, Davis
+PhD. in Agricultural and Resource Economics *(Expected 2024)* <br />
+University of California, Davis 
 
-MSc. in Agricultural Economics 
+MSc. in Agricultural Economics <br />
 University of Saskatchewan
 
-BSc. in Agribusiness *(Honours and Great Distinction)*
+BSc. in Agribusiness *(Honours and Great Distinction)* <br />
 University of Saskatchewan
 
 Publications
@@ -54,8 +54,7 @@ Teaching
 ======
 **Teaching Assistant**
 
-Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020
-
+Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020 <br />
    [Spring Teaching Evaluations](devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
   
    [Fall Teaching Evaluations](devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
@@ -66,21 +65,14 @@ Principles of Sales *(AREC 346)*. University of Saskatchewan, 2017
 
 Contact
 ------
-
-Devin Serfas
-
-daserfas@ucdavis.edu
-
-(306) 962-7907
+Devin Serfas <br />
+daserfas@ucdavis.edu <br />
+(306) 962-7907 <br />
 
 
-Department of Agricultural and Resource Economics
-
-University of California, Davis
-
-2116 Social Sciences and Humanities
-
-One Shields Avenue, Davis
-
-CA 95616
+Department of Agricultural and Resource Economics <br />
+University of California, Davis <br />
+2116 Social Sciences and Humanities <br />
+One Shields Avenue, Davis <br />
+CA 95616 <br />
 
