@@ -17,22 +17,57 @@ CV
 
 Dissertation Papers
 ======
+**Paper #1:** A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration
+
+**Paper #2:** The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity, and Profit
+
+**Paper #3:**  Fighting Climate Change with Soil Organic Carbon: Science and Policy
+
+Education
+======
+PhD. in Agricultural and Resource Economics *(Expected 2024)*
+University of California, Davis
+
+MSc. in Agricultural Economics 
+University of Saskatchewan
+
+BSc. in Agribusiness *(Honours and Great Distinction)*
+University of Saskatchewan
 
 Publications
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml]
+Alston, J. M., Pardey, P. G. Serfas, D., and S. Wang. 2023. Slow Magic: Agricultural Versus Industrial R&D Lag Models. *Annual Review of Resource Economics*, 15:1.
+
+Serfas, D., Gray, R., and P. Slade. 2018. Congestion and Distribution of Rents in Wheat Export Sector: A Canada–US Cross‐Border Comparison. *Canadian Journal of Agricultural Economics/Revue canadienne d'agroeconomie*, 66(2): 187-207.
 
 Working Papers
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+
+Serfas, D., Alston, J.M. and P.G. Pardey. 2021. The Returns to Industrial R&D: A Comprehensive Meta-Assessment and Partial Critique of the Evidence. InSTePP Working Paper. St Paul, MN: International Science and Technology Practice and Policy Center, University of Minnesota.
 
 Teaching
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+======
+**Teaching Assistant**
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+2020, Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*
+
+    Spring Teaching Evaluation [Link](devinserfas/devinserfas.github.io/files/example.pdf)
+
+    Fall Teaching Evaluation [Link](devinserfas/devinserfas.github.io/files/example.pdf)
+
+2018. Grain and Livestock Marketing *(AREC 343)*. University of Saskatchewan.
+
+2017. Principles of Sales *(AREC 346)*. University of Saskatchewan.
 
 Contact
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Devin Serfas
+daserfas@ucdavis.edu
+(306) 962-7907
+
+Department of Agricultural and Resource Economics
+University of California, Davis
+2116 Social Sciences and Humanities
+One Shields Avenue, Davis
+CA 95616
+
