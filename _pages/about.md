@@ -12,7 +12,7 @@ I am an agricultural economist interested in agricultural policy, markets, and f
 
 CV
 ======
-[CV](devinserfas.github.io/files/example.pdf)
+[CV](http://devinserfas.github.io/files/example.pdf)
 
 
 Dissertation 
@@ -55,9 +55,9 @@ Teaching
 **Teaching Assistant**
 
 Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020 <br />
-   [Spring Teaching Evaluations](TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
+   [Spring Teaching Evaluations](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
   
-   [Fall Teaching Evaluations](TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
+   [Fall Teaching Evaluations](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
 
 Grain and Livestock Marketing *(AREC 343)*. University of Saskatchewan, 2018
 
