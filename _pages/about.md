@@ -56,9 +56,9 @@ Teaching
 
 Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020
 
-   [Spring Teaching Evaluation](devinserfas/devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
+   [Spring Teaching Evaluations](devinserfas/devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
   
-   [Fall Teaching Evaluation](devinserfas/devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
+   [Fall Teaching Evaluations](devinserfas/devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
 
 Grain and Livestock Marketing *(AREC 343)*. University of Saskatchewan, 2018
 
