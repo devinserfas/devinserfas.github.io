@@ -61,9 +61,11 @@ Principles of Sales *(AREC 346)*. University of Saskatchewan, 2017
 
 Contact
 ------
+
 Devin Serfas
 daserfas@ucdavis.edu
 (306) 962-7907
+
 
 Department of Agricultural and Resource Economics
 University of California, Davis
