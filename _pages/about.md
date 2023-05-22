@@ -49,15 +49,15 @@ Teaching
 ======
 **Teaching Assistant**
 
-2020, Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*
+Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020
 
   [Spring Teaching Evaluation](devinserfas/devinserfas.github.io/files/teaching1.pdf)
 
   [Fall Teaching Evaluation](devinserfas/devinserfas.github.io/files/teaching2.pdf)
 
-2018. Grain and Livestock Marketing *(AREC 343)*. University of Saskatchewan.
+Grain and Livestock Marketing *(AREC 343)*. University of Saskatchewan, 2018
 
-2017. Principles of Sales *(AREC 346)*. University of Saskatchewan.
+Principles of Sales *(AREC 346)*. University of Saskatchewan, 2017
 
 Contact
 ------
