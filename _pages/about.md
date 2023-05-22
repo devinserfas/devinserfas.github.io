@@ -51,13 +51,11 @@ Serfas, D., Alston, J.M. and P.G. Pardey. 2021. The Returns to Industrial R&D: A
 
 Teaching
 ======
-**Teaching Assistant**
+**Teaching Assistant:**
 
 Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020 <br />
-   Spring TA Rating *(4.3/5)*. [Spring Teaching Evaluations](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
-   
-  
-   Fall TA Rating *(4.3/5)*. [Fall Teaching Evaluations](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Fall_2020.pdf)
+   -Spring TA Rating: [(4.3/5)](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
+   -Fall TA Rating: [(4.3/5)](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Fall_2020.pdf)
    
 Grain and Livestock Marketing *(AREC 343)*. University of Saskatchewan, 2018
 
