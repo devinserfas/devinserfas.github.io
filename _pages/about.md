@@ -40,10 +40,15 @@ Alston, J. M., Pardey, P. G. Serfas, D., and S. Wang. 2023. Slow Magic: Agricult
 
 Serfas, D., Gray, R., and P. Slade. 2018. Congestion and Distribution of Rents in Wheat Export Sector: A Canada–US Cross‐Border Comparison. *Canadian Journal of Agricultural Economics/Revue canadienne d'agroeconomie*, 66(2): 187-207.
 
+**Other Publications**
+
+Serfas, D. and R. Gray. 2019. An Evaluation of Value Creation Models for Pulses in western Canada. A report prepared for the Crop Development Center. Saskatoon, SK.
+
 Working Papers
 ------
 
 Serfas, D., Alston, J.M. and P.G. Pardey. 2021. The Returns to Industrial R&D: A Comprehensive Meta-Assessment and Partial Critique of the Evidence. InSTePP Working Paper. St Paul, MN: International Science and Technology Practice and Policy Center, University of Minnesota.
+
 
 Teaching
 ======
@@ -62,13 +67,19 @@ Contact
 ------
 
 Devin Serfas
+
 daserfas@ucdavis.edu
+
 (306) 962-7907
 
 
 Department of Agricultural and Resource Economics
+
 University of California, Davis
+
 2116 Social Sciences and Humanities
+
 One Shields Avenue, Davis
+
 CA 95616
 
