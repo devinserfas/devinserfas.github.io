@@ -12,7 +12,7 @@ I am an agricultural economist interested in agricultural policy, markets, and f
 
 CV
 ======
-[CV](http://devinserfas.github.io/files/example.pdf)
+[CV](http://devinserfas.github.io/files/DEVIN_RESUME.pdf)
 
 
 Dissertation 
