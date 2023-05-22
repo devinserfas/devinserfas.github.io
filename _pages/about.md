@@ -15,7 +15,7 @@ CV
 [CV](devinserfas/devinserfas.github.io/files/example.pdf)
 
 
-Dissertation Papers
+Dissertation\
 ======
 **Paper #1:** A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration
 
