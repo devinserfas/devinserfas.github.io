@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an agricultural economist interested in agricultural policy, markets, and farm managenment behavior.
+I am an agricultural economist interested in agricultural policy, markets, and farm management behavior.
 
 CV
 ======
@@ -31,7 +31,7 @@ University of California, Davis
 MSc. in Agricultural Economics <br />
 University of Saskatchewan
 
-BSc. in Agribusiness *(Honours and Great Distinction)* <br />
+BSc. in Agribusiness *(Honors and Great Distinction)* <br />
 University of Saskatchewan
 
 Publications
