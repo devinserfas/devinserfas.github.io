@@ -26,6 +26,7 @@ Dissertation
 Education
 ======
 PhD. in Agricultural and Resource Economics *(Expected 2024)* <br />
+Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel
 University of California, Davis 
 
 MSc. in Agricultural Economics <br />
@@ -46,7 +47,7 @@ Serfas, D. and R. Gray. 2019. An Evaluation of Value Creation Models for Pulses 
 Working Papers
 ------
 
-Serfas, D., Alston, J. M., and P. G. Pardey. 2023. The Returns to Industrial R&D: A Comprehensive Meta-Assessment and Partial Critique of the Evidence. InSTePP Working Paper. St Paul, MN: International Science and Technology Practice and Policy Center, University of Minnesota.
+Serfas, D., Alston, J. M., and P. G. Pardey. 2021. The Returns to Industrial R&D: A Comprehensive Meta-Assessment and Partial Critique of the Evidence. InSTePP Working Paper. St Paul, MN: International Science and Technology Practice and Policy Center, University of Minnesota.
 
 
 Teaching
