@@ -26,7 +26,7 @@ Dissertation
 Education
 ======
 PhD. in Agricultural and Resource Economics *(Expected 2024)* <br />
-Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel
+Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel <br />
 University of California, Davis 
 
 MSc. in Agricultural Economics <br />
