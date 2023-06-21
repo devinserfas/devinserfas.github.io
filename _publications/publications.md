@@ -1,6 +1,7 @@
 ---
 title: Publications
 collection: publications
+permalink: /publication/
 ---
 
 
