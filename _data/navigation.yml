@@ -1,12 +1,12 @@
 # main links links
 main:
-   - title: "Publications"
-     url: /publication/
+ - title: "Publications"
+   url: /publication/
 
 #  - title: "Talks"
 #    url: /talks/    
 
-  - title: "Teaching"
+ - title: "Teaching"
     url: /teaching/    
     
 #  - title: "Portfolio"
@@ -15,7 +15,7 @@ main:
 #  - title: "Blog Posts"
 #    url: /year-archive/
     
-  - title: "CV"
+ - title: "CV"
     url: http://devinserfas.github.io/files/DEVIN_SERFAS_RESUME.pdf
     
 #  - title: "Guide"
