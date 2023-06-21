@@ -5,13 +5,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
----
+
 layout: splash
 classes:
   - landing
   - dark-theme
----
-
 header:
 image: http://devinserfas.github.io/images/canola_banner.png
 
