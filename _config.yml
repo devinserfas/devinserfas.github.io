@@ -8,7 +8,7 @@
 plugins:
   - jekyll-remote-theme
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 header:
 image: http://devinserfas.github.io/images/canola_banner.png
@@ -154,12 +154,6 @@ exclude:
   - package.json
   - tmp
   - vendor
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
   - assets
 keep_files:
   - .git
