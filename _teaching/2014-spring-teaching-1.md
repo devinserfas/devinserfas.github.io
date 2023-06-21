@@ -1,20 +1,11 @@
----
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
----
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
+Teaching
 ======
+**Teaching Assistant:**
 
-Heading 2
-======
+Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020
+   * Spring TA Rating: [(4.3/5)](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Spring_2020.pdf)
+   * Fall TA Rating: [(4/5)](http://devinserfas.github.io/files/TA_Performance_Survey_ARE_100B_Fall_2020.pdf)
+   
+Grain and Livestock Marketing *(AREC 343)*. University of Saskatchewan, 2018
 
-Heading 3
-======
+Principles of Sales *(AREC 346)*. University of Saskatchewan, 2017
