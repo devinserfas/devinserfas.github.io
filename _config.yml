@@ -11,7 +11,7 @@ classes:
   - landing
   - dark-theme
 header:
-  image: http://devinserfas.github.io/images/canola_banner.png
+  overlay_image: http://devinserfas.github.io/images/canola_banner.png
 
 # Site Settings
 locale                   : "en-US"
