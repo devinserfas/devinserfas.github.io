@@ -11,10 +11,6 @@ redirect_from:
 I am an agricultural economist interested in agricultural policy, markets, and farm management. I grew up on a grain farm in Eston, Saskatchewan, so I am naturally interested in issues that affect farmers such as grain handling and transportation, investment in agricultural R&D, intellectual property and plant breeders' rights, and agri-environmental policy. 
 
 
-[CV](http://devinserfas.github.io/files/DEVIN_SERFAS_RESUME.pdf)
-======
-
-
 
 Dissertation 
 ======
