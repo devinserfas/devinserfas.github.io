@@ -8,7 +8,10 @@
 plugins:
   - jekyll-remote-theme
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+header:
+image: "canola_banner.png"
 
 # Site Settings
 locale                   : "en-US"
