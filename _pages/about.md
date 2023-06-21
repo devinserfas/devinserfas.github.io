@@ -6,6 +6,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+header: /images/canola_banner.png
 ---
 
 I am an agricultural economist interested in agricultural policy, markets, and farm management. I grew up on a grain farm in Eston, Saskatchewan, so I am naturally interested in issues that affect farmers such as grain handling and transportation, investment in agricultural R&D, intellectual property and plant breeders' rights, and agri-environmental policy. 
