@@ -5,10 +5,12 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-plugins:
-  - jekyll-remote-theme
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+---
+layout: splash
+classes:
+  - landing
+  - dark-theme
+---
 
 header:
 image: http://devinserfas.github.io/images/canola_banner.png
