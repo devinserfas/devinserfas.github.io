@@ -1,6 +1,6 @@
 ---
 collection: teaching
-permalink: /teaching/teaching
+permalink: /teaching/
 ---
 
 
