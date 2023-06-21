@@ -1,6 +1,5 @@
 
 ---
----
 permalink: /
 title: "Teaching"
 excerpt: "Teaching"
