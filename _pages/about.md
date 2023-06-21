@@ -8,32 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-I am an agricultural economist interested in agricultural policy, markets, and farm management behavior.
+I am an agricultural economist interested in agricultural policy, markets, and farm management. I grew up on a grain farm in Eston, Saskatchewan, so I am naturally interested in issues that affect farmers such as grain handling and transportation, investment in agricultural R&D, intellectual property and plant breeders' rights, and agri-environmental policy. 
 
-CV
-======
+
 [CV](http://devinserfas.github.io/files/DEVIN_SERFAS_RESUME.pdf)
+======
+
 
 
 Dissertation 
 ======
-**Paper #1:** A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration
+*"A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration"*
 
-**Paper #2:** The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity, and Profit
+*"The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity, and Profit"*
 
-**Paper #3:**  Fighting Climate Change with Soil Organic Carbon: Science and Policy
-
-Education
-======
-PhD. in Agricultural and Resource Economics *(Expected 2024)* <br />
-Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel <br />
-University of California, Davis 
-
-MSc. in Agricultural Economics <br />
-University of Saskatchewan
-
-BSc. in Agribusiness *(Honors and Great Distinction)* <br />
-University of Saskatchewan
+*"Fighting Climate Change with Soil Organic Carbon: Science and Policy"*
 
 Publications
 ------
@@ -48,6 +37,19 @@ Working Papers
 ------
 
 Serfas, D., Alston, J. M., and P. G. Pardey. 2021. The Returns to Industrial R&D: A Comprehensive Meta-Assessment and Partial Critique of the Evidence. InSTePP Working Paper. St Paul, MN: International Science and Technology Practice and Policy Center, University of Minnesota.
+
+
+Education
+======
+PhD. in Agricultural and Resource Economics *(Expected 2024)* <br />
+Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel <br />
+University of California, Davis 
+
+MSc. in Agricultural Economics <br />
+University of Saskatchewan
+
+BSc. in Agribusiness *(Honors and Great Distinction)* <br />
+University of Saskatchewan
 
 
 Teaching
