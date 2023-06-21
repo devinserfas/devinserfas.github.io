@@ -1,7 +1,7 @@
 ---
 layout: default
 collection: teaching
-permalink: /teaching/teaching
+permalink: /teaching
 ---
 
 
