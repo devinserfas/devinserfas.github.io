@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
-collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+Alston, J. M., Pardey, P. G., Serfas, D., and S. Wang. 2023. Slow Magic: Agricultural Versus Industrial R&D Lag Models. *Annual Review of Resource Economics*, 15:1.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Serfas, D., Gray, R., and P. Slade. 2018. Congestion and Distribution of Rents in Wheat Export Sector: A Canada–US Cross‐Border Comparison. *Canadian Journal of Agricultural Economics/Revue canadienne d'agroeconomie*, 66(2): 187-207. 
+
+**Other Publications** <br />
+Serfas, D. and R. Gray. 2019. An Evaluation of Value Creation Models for Pulses in western Canada. A report prepared for the Crop Development Center. Saskatoon, SK.
+
+Working Papers
+------
+
+Serfas, D., Alston, J. M., and P. G. Pardey. 2021. The Returns to Industrial R&D: A Comprehensive Meta-Assessment and Partial Critique of the Evidence. InSTePP Working Paper. St Paul, MN: International Science and Technology Practice and Policy Center, University of Minnesota.
