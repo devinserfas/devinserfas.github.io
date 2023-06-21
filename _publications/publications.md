@@ -1,6 +1,5 @@
 ---
 Title: Publications
-permalink: /publications/
 ---
 
 Alston, J. M., Pardey, P. G., Serfas, D., and S. Wang. 2023. Slow Magic: Agricultural Versus Industrial R&D Lag Models. *Annual Review of Resource Economics*, 15:1.
