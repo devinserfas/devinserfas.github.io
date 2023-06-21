@@ -1,4 +1,5 @@
 ---
+collection: teaching
 Title: Teaching
 ---
 
