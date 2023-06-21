@@ -8,7 +8,7 @@
 
 layout: splash
 header:
-  image: http://devinserfas.github.io/assets/images/canola_banner.jpg
+  image: http://devinserfas.github.io/images/canola_banner.jpg
 
 # Site Settings
 locale                   : "en-US"
