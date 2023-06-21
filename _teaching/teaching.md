@@ -5,7 +5,7 @@ permalink: /teaching/teaching
 
 
 
-======
+
 **Teaching Assistant:**
 
 Intermediate Microeconomics *(ARE 100B)*. University of California, Davis *(Spring and Fall Quarters)*, 2020
