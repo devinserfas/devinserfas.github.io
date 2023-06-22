@@ -10,6 +10,17 @@
  *
 */
 
+
+@charset "utf-8";
+
+@import "minimal-mistakes";
+
+// your styles here
+ .masthead__menu { 
+  color: red;
+}
+
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
