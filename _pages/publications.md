@@ -5,18 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
-Dissertation 
+Dissertation Research
 ------
 
-Serfas, D.A. 2023. Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms. Ph.D. Dissertation, University of California, Davis, Department of Agricultural and	Resource Economics.
+"Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms"
 
-**Dissertation Essays:**
+  - Essay 1: *"A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration"*
 
-*"A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration"*
+  - Essay 2: *"The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity, and Profit"*
 
-*"The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity, and Profit"*
-
-*"Fighting Climate Change with Soil Organic Carbon: Science and Policy"*
+  - Essay 3: *"Fighting Climate Change with Soil Organic Carbon: Science and Policy"*
 
 
 Publications
