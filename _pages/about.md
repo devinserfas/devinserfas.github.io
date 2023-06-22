@@ -15,14 +15,15 @@ I am an agricultural economist interested in agricultural policy, markets, and f
 
 Education
 ======
-PhD. in Agricultural and Resource Economics *(Expected 2024)* <br />
+**PhD. in Agricultural and Resource Economics** *(Expected 2024)* <br />
+Dissertation:  *"Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms"* <br />
 Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel <br />
 University of California, Davis 
 
-MSc. in Agricultural Economics <br />
+**MSc. in Agricultural Economics** *(2018)* <br />
 University of Saskatchewan
 
-BSc. in Agribusiness *(Honors and Great Distinction)* <br />
+**BSc. in Agribusiness** *(2016, Honors and Great Distinction)* <br />
 University of Saskatchewan
 
 
