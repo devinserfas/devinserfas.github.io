@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 Dissertation 
-======
+------
 
 Serfas, D.A. 2023. Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms. Ph.D. Dissertation, University of California, Davis, Department of Agricultural and	Resource Economics.
 
@@ -20,7 +20,7 @@ Serfas, D.A. 2023. Essays on Cropping Choice, Carbon Sequestration, and the Prod
 
 
 Publications
-======
+------
 
 Alston, J. M., Pardey, P. G., Serfas, D., and S. Wang. 2023. Slow Magic: Agricultural Versus Industrial R&D Lag Models. *Annual Review of Resource Economics*, 15:1. [(Link)](https://www.annualreviews.org/doi/pdf/10.1146/annurev-resource-111820-034312)
 
