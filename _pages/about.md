@@ -31,7 +31,6 @@ Contact
 ------
 Devin Serfas <br />
 daserfas@ucdavis.edu <br />
-(306) 962-7907 <br />
 
 
 Department of Agricultural and Resource Economics <br />
