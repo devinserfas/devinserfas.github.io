@@ -5,6 +5,12 @@ permalink: /teaching/
 author_profile: true
 ---
 
+***Associate Instructor:***
+
+ - **Intermediate Microeconomics** (ARE 100B) *University of California, Davis, Fall Quarter 2023*
+
+***Teaching Assistant:***
+
 Below is a list of the classes I have been a teaching assistant for, with links to evaluations when available.
 
  - **Intermediate Microeconomics** (ARE 100B) *University of California, Davis, Spring and Fall Quarters 2020*
