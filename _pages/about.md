@@ -31,9 +31,9 @@ Contact
 ------
 Devin Serfas <br />
 serfas@ualberta.ca <br />
-Department of Agricultural and Resource Economics <br />
-University of California, Davis <br />
-2116 Social Sciences and Humanities <br />
-One Shields Avenue, Davis <br />
-CA 95616 <br />
+Department of Resource Economics and Environmental Sociology <br />
+Faculty of Agricultural, Life & Environmental Sciences <br />
+University of Alberta <br />
+General Service Building <br />
+Edmonton, AB Canada T6G 2H1 <br />
 
