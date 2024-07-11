@@ -30,7 +30,7 @@ University of Saskatchewan
 Contact
 ------
 Devin Serfas <br />
-daserfas@ucdavis.edu <br />
+serfas@ualberta.ca <br />
 Department of Agricultural and Resource Economics <br />
 University of California, Davis <br />
 2116 Social Sciences and Humanities <br />
