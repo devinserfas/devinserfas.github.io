@@ -15,7 +15,7 @@ I am an agricultural economist, assistant professor, and [RDAR](https://rdar.ca/
 
 Education
 ======
-**PhD. in Agricultural and Resource Economics** *(Expected 2024)* <br />
+**PhD. in Agricultural and Resource Economics** <br />
 Dissertation:  *"Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms"* <br />
 Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel <br />
 University of California, Davis 
