@@ -10,9 +10,8 @@ header:
   image: https://devinserfas.github.io/images/canola_banner.png
 ---
 
-I am an agricultural economist interested in agricultural policy, markets, and farm management. I grew up on a grain farm near Eston, Saskatchewan, so I am naturally interested in issues that affect farmers such as grain handling and transportation, investment in agricultural R&D, intellectual property and plant breeders' rights, and agri-environmental policy. 
+I am an agricultural economist, assistant professor, and [RDAR](https://rdar.ca/) Chair in Applied Agricultural Economics and Risk Management at the University of Alberta in the Department of Resource Economics and Environmental Sociology ([REES](https://www.ualberta.ca/resource-economics-environmental-sociology/index.html)) in Edmonton, Alberta. My research focuses on topics related to agricultural policy, markets, and farm management. I grew up on a grain farm near Eston, Saskatchewan, so I am naturally interested in issues that affect farmers such as grain handling and transportation, investment in agricultural R&D, intellectual property and plant breeders' rights, and agri-environmental policy. 
 
-As of July 1, 2024, I will be an Assistant Professor and [RDAR](https://rdar.ca/) Chair in Applied Agricultural Economics and Risk Management at the University of Alberta in the Department of Resource Economics and Environmental Sociology ([REES](https://www.ualberta.ca/resource-economics-environmental-sociology/index.html)) in Edmonton, Alberta. 
 
 Education
 ======
