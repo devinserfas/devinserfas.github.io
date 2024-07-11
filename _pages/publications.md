@@ -5,18 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-Dissertation Research
-------
-
-"Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms"
-
-  - Essay 1: *"A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration"*
-
-  - Essay 2: *"The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity, and Profit"*
-
-  - Essay 3: *"Fighting Climate Change with Soil Organic Carbon: Science and Policy"*
-
-
 Publications
 ------
 
@@ -29,6 +17,12 @@ Serfas, D. and R. Gray. 2019. An Evaluation of Value Creation Models for Pulses 
 
 Working Papers
 ------
+
+The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity, and Profit
+
+A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration
+
+Harvesting Benefits: Exploring the Effects of Second-Best Policies on Enhancing Soil Organic Carbon Stocks in Agriculture
 
 The Costs of Pierce’s Disease in the California Grape and Wine Industry: New, Up-to-Date Estimates *(with Julian Alston)*
 
