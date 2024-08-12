@@ -26,5 +26,5 @@ Harvesting Benefits: Exploring the Effects of Second-Best Policies on Enhancing 
 
 The Costs of Pierce’s Disease in the California Grape and Wine Industry: New, Up-to-Date Estimates *(with Julian Alston)*
 
-Serfas, D., Alston, J. M., and P. G. Pardey. 2021. The Returns to Industrial R&D: A Comprehensive Meta-Assessment and Partial Critique of the Evidence. InSTePP Working Paper. St Paul, MN: International Science and Technology Practice and Policy Center, University of Minnesota.
+Serfas, D., Alston, J. M., and P. G. Pardey. 2024. The Returns to Industrial R&D: A Comprehensive Meta-Assessment and Partial Critique of the Evidence. InSTePP Working Paper. St Paul, MN: International Science and Technology Practice and Policy Center, University of Minnesota.
 
