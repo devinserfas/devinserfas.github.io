@@ -18,7 +18,7 @@ My research focuses on topics related to agricultural policy, markets, and farm 
 Education
 ======
 **PhD. in Agricultural and Resource Economics** *(2024)* <br />
-Dissertation:  *"Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms"* ([Link](url: https://devinserfas.github.io/files%20/eScholarship%20UC%20item%203rz4n845.pdf))<br />
+Dissertation:  *"Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms"* ([Link](https://devinserfas.github.io/files/eScholarship UC item 3rz4n845.pdf))<br />
 Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel <br />
 University of California, Davis 
 
