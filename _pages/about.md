@@ -19,7 +19,6 @@ Education
 ======
 **PhD. in Agricultural and Resource Economics** *(2024)* <br />
 Dissertation:  *"Essays on Cropping Choice, Carbon Sequestration, and the Productivity of Saskatchewan Farms"* ([Link](https://devinserfas.github.io/files/eScholarship_UC_Item.pdf))<br />
-Committee: Julian M. Alston, Richard S. Gray, Aaron D. Smith, and Pierre R. Mérel <br />
 University of California, Davis 
 
 **MSc. in Agricultural Economics** *(2018)* <br />
