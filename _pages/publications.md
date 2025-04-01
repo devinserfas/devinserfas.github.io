@@ -13,6 +13,8 @@ Alston, J. M., Pardey, P. G., Serfas, D., and S. Wang. 2023. Slow Magic: Agricul
 Serfas, D., Gray, R., and P. Slade. 2018. Congestion and Distribution of Rents in Wheat Export Sector: A Canada–US Cross‐Border Comparison. *Canadian Journal of Agricultural Economics/Revue canadienne d'agroeconomie*, 66(2): 187-207. [(Link)](https://onlinelibrary.wiley.com/doi/pdf/10.1111/cjag.12171)
 
 **Other Publications** <br />
+Alston, J. M. and D. Serfas. 2025. The Costs of Pierce’s Disease in the California Grape and Wine Industry: New, Up-to-Date Estimates. A report prepared for the California Department of Agriculture PD/GWSS Research Board. [(Summary Report)](https://www.cdfa.ca.gov/pdcp/Documents/2025/Cost_of_PD_in_CA_Grape_and_Wine_Industry.pdf)
+
 Serfas, D. and R. Gray. 2019. An Evaluation of Value Creation Models for Pulses in western Canada. A report prepared for the Crop Development Center. Saskatoon, SK.
 
 Working Papers
