@@ -20,9 +20,7 @@ layout: compress
     border: none;
     cursor: pointer;
     font-size: 14px;
-    border-radius: 5px;
-    z-index: 1000;
-">
+    border-radius: 5px;">
     Toggle Dark Mode
 </button>
 
@@ -30,18 +28,28 @@ layout: compress
 document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.getElementById("dark-mode-toggle");
 
-    // Check if dark mode was enabled previously
-    if (localStorage.getItem("darkMode") === "true") {
-        document.documentElement.classList.add("dark-mode");
+    if (!toggleButton) {
+        console.error("Dark mode button not found!");
+        return;
     }
 
-    // Toggle dark mode when the button is clicked
-    toggleButton.addEventListener("click", function () {
-        document.documentElement.classList.toggle("dark-mode");
+    console.log("Dark mode button found!");
 
-        // Store the user preference in localStorage
+    // Load dark mode preference
+    if (localStorage.getItem("darkMode") === "true") {
+        document.documentElement.classList.add("dark-mode");
+        console.log("Dark mode enabled on page load.");
+    }
+
+    // Add click event listener
+    toggleButton.addEventListener("click", function () {
+        console.log("Dark mode button clicked!");
+        document.documentElement.classList.toggle("dark-mode");
         localStorage.setItem("darkMode", document.documentElement.classList.contains("dark-mode"));
+        console.log("Dark mode toggled:", document.documentElement.classList.contains("dark-mode"));
     });
+
+    console.log("Dark mode script initialized.");
 });
 </script>
   <body>
