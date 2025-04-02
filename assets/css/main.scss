@@ -61,10 +61,11 @@
   /* Additional styling as needed */
 }
 
+/* Default (Light Mode) Styles */
 .theme-switch {
   display: flex;
   align-items: center;
-  margin-left: auto; /* Pushes the switch to the right */
+  margin-left: auto;
 }
 
 .theme-switch input {
@@ -74,10 +75,20 @@
 .theme-switch label {
   cursor: pointer;
   padding: 0.5em;
-  background-color: #ccc;
+  background-color: #ccc; /* Light background */
   border-radius: 1em;
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .theme-switch input:checked + label {
-  background-color: #666;
+  background-color: #666; /* Dark background when checked */
+}
+
+/* Dark Mode Styles */
+body.dark-mode .theme-switch label {
+  background-color: #444; /* Dark background in dark mode */
+}
+
+body.dark-mode .theme-switch input:checked + label {
+  background-color: #222; /* Darker background when checked in dark mode */
 }
