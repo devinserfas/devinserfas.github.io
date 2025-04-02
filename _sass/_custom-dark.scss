@@ -47,8 +47,20 @@ body.dark-mode {
 
   .masthead a:hover {
     color: $nav-link-hover-color-dark;
-  }
+  }  
 }
+body.dark-mode .masthead {
+  background-color: #1e1e1e; /* Dark background for the navigation bar */
+}
+
+body.dark-mode .masthead__menu-item a {
+  color: #ffffff; /* Light text color for navigation links */
+}
+
+body.dark-mode .masthead__menu-item a:hover {
+  color: #bbbbbb; /* Slightly lighter color for hover effect */
+}
+
 button:hover {
   background-color: darken($button-bg, 10%);
 }
