@@ -27,33 +27,26 @@ layout: compress
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("JavaScript Loaded!");
-
     const toggleButton = document.getElementById("dark-mode-toggle");
 
     if (!toggleButton) {
-        console.error("Dark mode button not found!");
+        console.error("Dark mode toggle button not found!");
         return;
     }
-
-    console.log("Dark mode button found!");
 
     // Load dark mode preference
     if (localStorage.getItem("darkMode") === "true") {
         document.documentElement.classList.add("dark-mode");
-        console.log("Dark mode enabled on page load.");
     }
 
-    // Add event listener to toggle dark mode
+    // Add click event listener
     toggleButton.addEventListener("click", function () {
-        console.log("Dark mode button clicked!");
         document.documentElement.classList.toggle("dark-mode");
         localStorage.setItem("darkMode", document.documentElement.classList.contains("dark-mode"));
     });
-
-    console.log("Dark mode script initialized.");
 });
 </script>
+
   <body>
 
     {% include browser-upgrade.html %}
