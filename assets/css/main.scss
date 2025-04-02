@@ -78,6 +78,11 @@ body.dark-mode {
   /* Additional styling as needed */
 }
 
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Ensure vertical alignment */
+}
+
 .nav-button {
   background-color: var(--button-bg-color);
   color: var(--button-text-color);
