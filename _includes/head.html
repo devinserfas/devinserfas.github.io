@@ -4,6 +4,9 @@
 
 {% include seo.html %}
 
+
+
+
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -16,6 +19,20 @@
 </script>
 
 <!-- For all browsers -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Check local storage for dark mode setting
+    if (localStorage.getItem("darkMode") === "true") {
+        document.documentElement.classList.add("dark-mode");
+    }
+});
+
+function toggleDarkMode() {
+    document.documentElement.classList.toggle("dark-mode");
+    localStorage.setItem("darkMode", document.documentElement.classList.contains("dark-mode"));
+}
+</script>
+
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
