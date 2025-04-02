@@ -6,6 +6,9 @@ $text-color-light: #ffffff;
 $top-bottom-ribbon-bg: #333333;
 $button-bg: #444444;
 $button-text-color: #ffffff;
+$nav-bar-bg: #333333;
+$nav-link-color: #ffffff;
+$nav-link-hover-color: #bbbbbb;
 
 // Apply dark mode background
 body {
@@ -27,6 +30,21 @@ button {
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
+}
+
+
+// Style the navigation bar
+.masthead {
+  background-color: $nav-bar-bg;
+  color: $text-color-light;
+}
+
+.masthead a {
+  color: $nav-link-color;
+}
+
+.masthead a:hover {
+  color: $nav-link-hover-color;
 }
 
 button:hover {
