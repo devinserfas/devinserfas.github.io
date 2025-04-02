@@ -23,12 +23,6 @@ button {
   border-radius: 5px;
 }
 
-// Style top and bottom ribbons
-.top-ribbon, .bottom-ribbon {
-  background-color: $top-bottom-ribbon-bg;
-  color: $text-color-light;
-}
-
 // Apply dark mode styles to the navigation bar
 body.dark-mode {
   background-color: #121212;
