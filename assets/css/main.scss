@@ -53,76 +53,81 @@ $text-dark: #ffffff;
 $button-bg-dark: #555555;
 $button-text-dark: #ffffff;
 
+// Root CSS variables (Light mode defaults)
 :root {
-  // Light mode variables
   --background-color: #{$background-light};
   --text-color: #{$text-light};
   --button-bg-color: #{$button-bg-light};
   --button-text-color: #{$button-text-light};
 }
 
+// When dark mode is active, update variables
 body.dark-mode {
-  // Dark mode variables
   --background-color: #{$background-dark};
   --text-color: #{$text-dark};
   --button-bg-color: #{$button-bg-dark};
   --button-text-color: #{$button-text-dark};
 }
 
+/* Navigation bar */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Places items on opposite ends */
-  align-items: center; /* Centers items vertically */
-    background-color: var(--background-color);
+  justify-content: space-between; /* Spaces items */
+  align-items: center; /* Aligns items vertically */
+  background-color: var(--background-color);
   color: var(--text-color);
-  /* Additional styling as needed */
 }
 
+/* Align nav buttons properly */
 .navbar-nav {
-    display: flex;
-    align-items: center; /* Vertically align items */
-    justify-content: flex-end; /* Align all items to the right */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the right */
 }
 
-/* Style for the theme toggle */
-#theme-toggle {
-    display: none; /* Hide the default checkbox */
-}
-
+/* Navigation buttons */
 .nav-button {
   background-color: var(--button-bg-color);
   color: var(--button-text-color);
-  // Additional styling as needed
+  padding: 8px 12px;
+  border: 1px solid var(--button-bg-color);
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
+.nav-button:hover {
+  background-color: darken(var(--button-bg-color), 10%);
+}
+
+/* Navigation links */
 .nav-links {
   display: flex;
-  background-color: var(--background-color);
+  gap: 10px;
   color: var(--text-color);
-  /* Additional styling for navigation links */
 }
 
 /* Hide the default checkbox */
-.theme-checkbox {
+#theme-toggle {
   display: none;
 }
 
-/* Style the label to look like a button */
+/* Style the label as a dark mode toggle button */
 .theme-label {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   cursor: pointer;
-  padding: 0.5em 1em;
-  background-color: #ccc; /* Light mode background */
-  color: #333; /* Light mode text color */
+  padding: 8px 12px;
+  background-color: transparent;
+  color: inherit;
   border: none;
-  border-radius: 0.25em;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Change appearance when checkbox is checked (dark mode) */
-.theme-checkbox:checked + .theme-label {
+/* When dark mode is enabled */
+#theme-toggle:checked + .theme-label {
   background-color: #444; /* Dark mode background */
-  color: #fff; /* Dark mode text color */
+  color: #fff;
 }
 
 
