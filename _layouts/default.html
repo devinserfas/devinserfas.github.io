@@ -10,8 +10,30 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
   </head>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    const currentTheme = localStorage.getItem('theme');
 
-  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+    if (currentTheme) {
+      document.body.classList.add(currentTheme);
+
+      if (currentTheme === 'dark-mode') {
+        toggleSwitch.checked = true;
+      }
+    }
+
+    toggleSwitch.addEventListener('change', function (e) {
+      if (e.target.checked) {
+        document.body.classList.add('dark-mode');
+        localStorage.setItem('theme', 'dark-mode');
+      } else {
+        document.body.classList.remove('dark-mode');
+        localStorage.setItem('theme', '');
+      }
+    });
+  });
+</script>
   <body>
 
     {% include browser-upgrade.html %}
