@@ -41,12 +41,47 @@
 @import "print";
 @import "custom-dark";
 
+// Define color variables for light mode
+$background-light: #ffffff;
+$text-light: #333333;
+$button-bg-light: #f0f0f0;
+$button-text-light: #333333;
+
+// Define color variables for dark mode
+$background-dark: #333333;
+$text-dark: #ffffff;
+$button-bg-dark: #555555;
+$button-text-dark: #ffffff;
+
+:root {
+  // Light mode variables
+  --background-color: #{$background-light};
+  --text-color: #{$text-light};
+  --button-bg-color: #{$button-bg-light};
+  --button-text-color: #{$button-text-light};
+}
+
+body.dark-mode {
+  // Dark mode variables
+  --background-color: #{$background-dark};
+  --text-color: #{$text-dark};
+  --button-bg-color: #{$button-bg-dark};
+  --button-text-color: #{$button-text-dark};
+}
+
 .navbar {
   display: flex;
   justify-content: space-between; /* Places items on opposite ends */
   align-items: center; /* Centers items vertically */
-  background-color: #ffffff; /* Light mode background */
+    background-color: var(--background-color);
+  color: var(--text-color);
   /* Additional styling as needed */
+}
+
+.nav-button {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  // Additional styling as needed
 }
 
 .nav-links {
@@ -77,23 +112,3 @@
   color: #fff; /* Dark mode text color */
 }
 
-/* Light Mode Navigation Bar */
-.navbar {
-  background-color: #ffffff; /* Light background */
-  /* Additional styling as needed */
-}
-
-/* Dark Mode Navigation Bar */
-body.dark-mode .navbar {
-  background-color: #333333; /* Dark background */
-  /* Additional dark mode styling as needed */
-}
-
-body.dark-mode .navbar {
-  background-color: #333333 !important;
-}
-
-.navbar-inverse {
-  background-color: #333333; /* Custom dark background */
-  background-image: none; /* Override any background images */
-}
