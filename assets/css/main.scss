@@ -41,97 +41,29 @@
 @import "print";
 @import "custom-dark";
 
-// Custom styles for theme switch
 .navbar {
   display: flex;
-  justify-content: space-between; /* Distributes items with space between */
-  align-items: center; /* Vertically centers items */
-  width: 100%;
-}
-/* Default (Light Mode) Navigation Bar */
-.navbar {
-  background-color: #ffffff; /* Light background */
+  justify-content: space-between; /* Places items on opposite ends */
+  align-items: center; /* Centers items vertically */
+  background-color: #ffffff; /* Light mode background */
   /* Additional styling as needed */
 }
 
-/* Dark Mode Navigation Bar */
-body.dark-mode .navbar {
-  background-color: #333333; /* Dark background */
-  /* Additional dark mode styling as needed */
+.nav-links {
+  display: flex;
+  /* Additional styling for navigation links */
 }
 
-
-/* Default (Light Mode) Styles */
 .theme-switch {
-  margin-left: auto;
+  /* Styling for the toggle button */
 }
 
-.theme-switch input {
-  display: none;
+body.dark-mode .navbar {
+  background-color: #333333; /* Dark mode background */
+  /* Additional dark mode styling */
 }
 
-.theme-switch label {
-  cursor: pointer;
-  padding: 0.5em;
-  background-color: #ccc; /* Light background */
-  border-radius: 1em;
-  transition: background-color 0.3s ease; /* Smooth transition */
+body.dark-mode .nav-links a {
+  color: #ffffff; /* Light text color for navigation links */
+  /* Additional styling as needed */
 }
-
-.theme-switch input:checked + label {
-  background-color: #666; /* Dark background when checked */
-}
-
-/* Dark Mode Styles */
-body.dark-mode .theme-switch label {
-  background-color: #444; /* Dark background in dark mode */
-}
-
-body.dark-mode .theme-switch input:checked + label {
-  background-color: #222; /* Darker background when checked in dark mode */
-}
-
-body.dark-mode {
-  // Navigation Bar Styles
-  .masthead {
-    background-color: #333; // Dark background for the navigation bar
-    color: #fff; // Light text color
-  }
-
-  .masthead a {
-    color: #fff; // Light text color for navigation links
-  }
-
-  .masthead a:hover {
-    color: #f0a500; // Highlight color on hover
-  }
-
-  // Additional navigation button styles
-  .masthead .navicon {
-    background-color: #444; // Dark background for the navigation icon
-  }
-
-  // Ensure other navigation elements are styled appropriately
-  .masthead__menu-item {
-    background-color: #333; // Dark background for menu items
-    border: 1px solid #555; // Subtle border for separation
-  }
-
-  .your-flex-item {
-    background-color: #333; /* Dark background for dark mode */
-    color: #fff; /* Light text color for contrast */
-  } 
-  
-}
-
-  .your-flex-container {
-    display: flex;
-    flex-direction: row; /* or column, depending on your layout */
-    align-items: stretch; /* Ensures items stretch to the container's height */
-  }
-
-
-
-  .your-flex-item {
-    overflow: hidden; /* Prevents content from overflowing */
-  }
