@@ -64,7 +64,19 @@ body.dark-mode {
   }
 }
 
+/* Default (Light Mode) Button Styles */
+.page-button {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333333; /* Dark text */
+  /* Additional styling as needed */
+}
 
+/* Dark Mode Button Styles */
+body.dark-mode .page-button {
+  background-color: #333333; /* Dark background */
+  color: #ffffff; /* Light text */
+  /* Additional dark mode styling as needed */
+}
 
 button:hover {
   background-color: darken($button-bg, 10%);
