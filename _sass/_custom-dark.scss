@@ -1,18 +1,35 @@
-/* Dark Mode Styles */
-.dark-mode {
-    background-color: #121212;
-    color: #e0e0e0;
+// _custom-dark.scss
+
+// Define dark mode colors
+$background-color-dark: #121212;
+$text-color-light: #ffffff;
+$top-bottom-ribbon-bg: #333333;
+
+// Apply dark mode background
+body {
+  background-color: $background-color-dark;
+  color: $text-color-light;
 }
 
-.dark-mode a {
-    color: #bb86fc;
+// Style top and bottom ribbons
+.top-ribbon, .bottom-ribbon {
+  background-color: $top-bottom-ribbon-bg;
+  color: $text-color-light;
 }
 
-.dark-mode a:hover {
-    color: #3700b3;
+// Additional dark mode customizations
+a {
+  color: lighten($text-color-light, 20%);
 }
 
-.dark-mode .navbar, 
-.dark-mode .site-header {
-    background-color: #1e1e1e;
+a:hover {
+  color: $text-color-light;
+}
+
+.navbar {
+  background-color: darken($top-bottom-ribbon-bg, 10%);
+}
+
+.footer {
+  background-color: darken($top-bottom-ribbon-bg, 10%);
 }
