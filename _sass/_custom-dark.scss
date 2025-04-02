@@ -50,6 +50,21 @@ body.dark-mode {
   }  
 }
 
+body.dark-mode {
+  .site-footer {
+    background-color: #1e1e1e; /* Dark background for the footer */
+    color: #ffffff; /* Light text color for the footer */
+  }
+
+  .site-footer a {
+    color: #bbbbbb; /* Lighter color for footer links */
+  }
+
+  .site-footer a:hover {
+    color: #ffffff; /* Bright color for hover effect on links */
+  }
+}
+
 
 button:hover {
   background-color: darken($button-bg, 10%);
