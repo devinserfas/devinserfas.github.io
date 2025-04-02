@@ -58,12 +58,23 @@
   /* Styling for the toggle button */
 }
 
-body.dark-mode .navbar {
-  background-color: #333333; /* Dark mode background */
-  /* Additional dark mode styling */
+/* Light Mode Navigation Bar */
+.navbar {
+  background-color: #ffffff; /* Light background */
+  /* Additional styling as needed */
 }
 
-body.dark-mode .nav-links a {
-  color: #ffffff; /* Light text color for navigation links */
-  /* Additional styling as needed */
+/* Dark Mode Navigation Bar */
+body.dark-mode .navbar {
+  background-color: #333333; /* Dark background */
+  /* Additional dark mode styling as needed */
+}
+
+body.dark-mode .navbar {
+  background-color: #333333 !important;
+}
+
+.navbar-inverse {
+  background-color: #333333; /* Custom dark background */
+  background-image: none; /* Override any background images */
 }
