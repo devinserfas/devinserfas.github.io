@@ -117,3 +117,36 @@ body.dark-mode {
   color: #fff; /* Dark mode text color */
 }
 
+
+/* Dark mode styles for page buttons */
+body.dark-mode {
+    background-color: $background-color-dark;
+    color: $text-color-dark; /* General text color */
+
+    /* Navigation bar */
+    .masthead {
+        background-color: $nav-bar-bg-dark;
+        color: $nav-link-color-dark;
+    }
+
+    .masthead a {
+        color: $nav-link-color-dark;
+    }
+
+    .masthead a:hover {
+        color: $nav-link-hover-color-dark;
+    }
+
+    /* Style buttons in dark mode */
+    .btn {
+        background-color: $button-bg-dark;
+        color: $button-text-dark;
+        border: 1px solid $button-border-dark;
+    }
+
+    .btn:hover {
+        background-color: $button-hover-bg-dark;
+        color: $button-hover-text-dark;
+    }
+}
+
