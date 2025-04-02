@@ -26,6 +26,8 @@ layout: compress
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+    console.log("JavaScript Loaded!");
+
     const toggleButton = document.getElementById("dark-mode-toggle");
 
     if (!toggleButton) {
@@ -41,12 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("Dark mode enabled on page load.");
     }
 
-    // Add click event listener
+    // Add event listener to toggle dark mode
     toggleButton.addEventListener("click", function () {
         console.log("Dark mode button clicked!");
         document.documentElement.classList.toggle("dark-mode");
         localStorage.setItem("darkMode", document.documentElement.classList.contains("dark-mode"));
-        console.log("Dark mode toggled:", document.documentElement.classList.contains("dark-mode"));
     });
 
     console.log("Dark mode script initialized.");
