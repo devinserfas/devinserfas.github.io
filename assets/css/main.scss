@@ -55,7 +55,7 @@
 }
 
 /* Hide the default checkbox */
-.theme-switch {
+.theme-checkbox {
   display: none;
 }
 
@@ -71,6 +71,7 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Change appearance when checkbox is checked (dark mode) */
 .theme-checkbox:checked + .theme-label {
   background-color: #444; /* Dark mode background */
   color: #fff; /* Dark mode text color */
