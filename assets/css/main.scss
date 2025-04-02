@@ -103,3 +103,30 @@ body.dark-mode .theme-switch label {
 body.dark-mode .theme-switch input:checked + label {
   background-color: #222; /* Darker background when checked in dark mode */
 }
+
+body.dark-mode {
+  // Navigation Bar Styles
+  .masthead {
+    background-color: #333; // Dark background for the navigation bar
+    color: #fff; // Light text color
+  }
+
+  .masthead a {
+    color: #fff; // Light text color for navigation links
+  }
+
+  .masthead a:hover {
+    color: #f0a500; // Highlight color on hover
+  }
+
+  // Additional navigation button styles
+  .masthead .navicon {
+    background-color: #444; // Dark background for the navigation icon
+  }
+
+  // Ensure other navigation elements are styled appropriately
+  .masthead__menu-item {
+    background-color: #333; // Dark background for menu items
+    border: 1px solid #555; // Subtle border for separation
+  }
+}
