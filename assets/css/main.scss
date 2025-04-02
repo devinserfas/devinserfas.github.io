@@ -42,6 +42,25 @@
 @import "custom-dark";
 
 // Custom styles for theme switch
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Distributes items with space between */
+  align-items: center; /* Vertically centers items */
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 10px;
+  /* Additional styling as needed */
+}
+
 .theme-switch {
   display: flex;
   align-items: center;
