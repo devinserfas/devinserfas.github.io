@@ -42,10 +42,17 @@
 @import "custom-dark";
 
 // Custom styles for theme switch
-.theme-switch {
-  display: inline-block;
-  margin-left: 1em;
-}
+  .masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .theme-switch {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
 
 .theme-switch input {
   display: none;
