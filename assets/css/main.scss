@@ -48,6 +48,17 @@
   align-items: center; /* Vertically centers items */
   width: 100%;
 }
+/* Default (Light Mode) Navigation Bar */
+.navbar {
+  background-color: #ffffff; /* Light background */
+  /* Additional styling as needed */
+}
+
+/* Dark Mode Navigation Bar */
+body.dark-mode .navbar {
+  background-color: #333333; /* Dark background */
+  /* Additional dark mode styling as needed */
+}
 
 .nav-links {
   display: flex;
