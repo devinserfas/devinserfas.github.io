@@ -26,7 +26,22 @@ layout: compress
 </button>
 
 <script>
-document.getElementById("dark-mode-toggle").addEventListener("click", toggleDarkMode);
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("dark-mode-toggle");
+
+    // Check if dark mode was enabled previously
+    if (localStorage.getItem("darkMode") === "true") {
+        document.documentElement.classList.add("dark-mode");
+    }
+
+    // Toggle dark mode when the button is clicked
+    toggleButton.addEventListener("click", function () {
+        document.documentElement.classList.toggle("dark-mode");
+
+        // Store the user preference in localStorage
+        localStorage.setItem("darkMode", document.documentElement.classList.contains("dark-mode"));
+    });
+});
 </script>
   <body>
 
