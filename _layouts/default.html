@@ -24,7 +24,6 @@ layout: compress
     z-index: 9999;">
     Toggle Dark Mode
 </button>
-
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.getElementById("dark-mode-toggle");
@@ -42,11 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add click event listener
     toggleButton.addEventListener("click", function () {
         document.documentElement.classList.toggle("dark-mode");
-        localStorage.setItem("darkMode", document.documentElement.classList.contains("dark-mode"));
+        const isDarkMode = document.documentElement.classList.contains("dark-mode");
+        localStorage.setItem("darkMode", isDarkMode);
     });
 });
 </script>
-
   <body>
 
     {% include browser-upgrade.html %}
