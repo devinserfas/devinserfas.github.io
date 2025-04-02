@@ -54,8 +54,26 @@
   /* Additional styling for navigation links */
 }
 
+/* Hide the default checkbox */
 .theme-switch {
-  /* Styling for the toggle button */
+  display: none;
+}
+
+/* Style the label to look like a button */
+.theme-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  background-color: #ccc; /* Light mode background */
+  color: #333; /* Light mode text color */
+  border: none;
+  border-radius: 0.25em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-checkbox:checked + .theme-label {
+  background-color: #444; /* Dark mode background */
+  color: #fff; /* Dark mode text color */
 }
 
 /* Light Mode Navigation Bar */
