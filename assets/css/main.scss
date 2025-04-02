@@ -41,19 +41,19 @@
 @import "print";
 @import "custom-dark";
 
-// Define color variables for light mode
+/* Define color variables for light mode */
 $background-light: #ffffff;
 $text-light: #333333;
 $button-bg-light: #f0f0f0;
 $button-text-light: #333333;
 
-// Define color variables for dark mode
-$background-dark: #333333;
+/* Define color variables for dark mode */
+$background-dark: #222222;
 $text-dark: #ffffff;
 $button-bg-dark: #555555;
 $button-text-dark: #ffffff;
 
-// Root CSS variables (Light mode defaults)
+/* Set CSS variables for light mode */
 :root {
   --background-color: #{$background-light};
   --text-color: #{$text-light};
@@ -61,7 +61,7 @@ $button-text-dark: #ffffff;
   --button-text-color: #{$button-text-light};
 }
 
-// When dark mode is active, update variables
+/* Apply dark mode styles when active */
 body.dark-mode {
   --background-color: #{$background-dark};
   --text-color: #{$text-dark};
@@ -69,41 +69,43 @@ body.dark-mode {
   --button-text-color: #{$button-text-dark};
 }
 
-/* Navigation bar */
+/* Navbar Fix */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Spaces items */
-  align-items: center; /* Aligns items vertically */
+  justify-content: space-between; /* Ensures space between left and right elements */
+  align-items: center;
   background-color: var(--background-color);
   color: var(--text-color);
+  padding: 10px 20px;
 }
 
-/* Align nav buttons properly */
+/* Ensure navigation buttons stay on the right */
 .navbar-nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Align items to the right */
+  gap: 15px; /* Space between nav items */
 }
 
-/* Navigation buttons */
+/* Style for navigation buttons */
 .nav-button {
   background-color: var(--button-bg-color);
   color: var(--button-text-color);
   padding: 8px 12px;
-  border: 1px solid var(--button-bg-color);
   border-radius: 5px;
   transition: background 0.3s ease, color 0.3s ease;
+  border: none;
+  cursor: pointer;
 }
 
 .nav-button:hover {
   background-color: darken(var(--button-bg-color), 10%);
 }
 
-/* Navigation links */
-.nav-links {
+/* Align Dark Mode toggle button with navigation */
+#dark-mode-container {
   display: flex;
-  gap: 10px;
-  color: var(--text-color);
+  align-items: center;
+  margin-left: auto; /* Pushes it to the right */
 }
 
 /* Hide the default checkbox */
@@ -111,22 +113,21 @@ body.dark-mode {
   display: none;
 }
 
-/* Style the label as a dark mode toggle button */
+/* Style the dark mode toggle button */
 .theme-label {
   display: inline-flex;
   align-items: center;
   cursor: pointer;
   padding: 8px 12px;
-  background-color: transparent;
-  color: inherit;
-  border: none;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
   border-radius: 5px;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* When dark mode is enabled */
+/* Ensure button updates when clicked */
 #theme-toggle:checked + .theme-label {
-  background-color: #444; /* Dark mode background */
+  background-color: #444;
   color: #fff;
 }
 
