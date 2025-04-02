@@ -44,17 +44,3 @@ body.dark-mode {
 button:hover {
   background-color: darken($button-bg, 10%);
 }
-
-    /* Ensure navbar toggle matches dark mode */
-    #dark-mode-container {
-        background: transparent;
-    }
-
-    .dark-mode-label {
-        background: $toggle-bg-dark;
-    }
-
-    .dark-mode-label::before {
-        background: $toggle-knob-dark;
-    }
-}
