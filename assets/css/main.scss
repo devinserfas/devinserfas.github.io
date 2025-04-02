@@ -79,11 +79,23 @@ body.dark-mode {
   padding: 10px 20px;
 }
 
-/* Ensure navigation buttons stay on the right */
+/* Apply background color fix for the navigation bar */
+.navbar, .masthead {
+  background-color: var(--background-color);
+}
+
+/* Fix for container behind navigation buttons & dark mode toggle */
 .navbar-nav {
-  display: flex;
-  align-items: center;
-  gap: 15px; /* Space between nav items */
+  background-color: var(--background-color); /* Ensure it updates */
+  color: var(--text-color);
+}
+
+/* Fix for dark mode when active */
+body.dark-mode .navbar,
+body.dark-mode .masthead,
+body.dark-mode .navbar-nav {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 /* Style for navigation buttons */
@@ -101,18 +113,6 @@ body.dark-mode {
   background-color: darken(var(--button-bg-color), 10%);
 }
 
-/* Align Dark Mode toggle button with navigation */
-#dark-mode-container {
-  display: flex;
-  align-items: center;
-  margin-left: auto; /* Pushes it to the right */
-}
-
-/* Hide the default checkbox */
-#theme-toggle {
-  display: none;
-}
-
 /* Style the dark mode toggle button */
 .theme-label {
   display: inline-flex;
@@ -125,11 +125,6 @@ body.dark-mode {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Ensure button updates when clicked */
-#theme-toggle:checked + .theme-label {
-  background-color: #444;
-  color: #fff;
-}
 
 /* Footer Styling */
 .site-footer {
