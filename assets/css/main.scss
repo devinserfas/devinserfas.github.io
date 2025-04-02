@@ -131,5 +131,25 @@ body.dark-mode {
   color: #fff;
 }
 
+/* Footer Styling */
+.site-footer {
+  background-color: #222222; /* Dark gray background */
+  color: #ffffff; /* White text for contrast */
+  padding: 20px 0;
+}
 
+/* Links inside the footer */
+.site-footer a {
+  color: #bbbbbb; /* Light gray for links */
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #ffffff; /* White on hover */
+}
+
+/* Footer text alignment */
+.footer-col {
+  text-align: center; /* Center the text */
+}
 
