@@ -129,4 +129,22 @@ body.dark-mode {
     background-color: #333; // Dark background for menu items
     border: 1px solid #555; // Subtle border for separation
   }
+
+  .your-flex-item {
+    background-color: #333; /* Dark background for dark mode */
+    color: #fff; /* Light text color for contrast */
+  } 
+  
 }
+
+  .your-flex-container {
+    display: flex;
+    flex-direction: row; /* or column, depending on your layout */
+    align-items: stretch; /* Ensures items stretch to the container's height */
+  }
+
+
+
+  .your-flex-item {
+    overflow: hidden; /* Prevents content from overflowing */
+  }
