@@ -1,8 +1,11 @@
 // _custom-dark.scss
 
+// Define dark mode colors
 $background-color-dark: #121212;
 $text-color-light: #ffffff;
 $top-bottom-ribbon-bg: #333333;
+$button-bg: #444444;
+$button-text-color: #ffffff;
 
 // Apply dark mode background
 body {
@@ -16,19 +19,16 @@ body {
   color: $text-color-light;
 }
 
-// Additional dark mode customizations
-a {
-  color: lighten($text-color-light, 20%);
+// Style buttons
+button {
+  background-color: $button-bg;
+  color: $button-text-color;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-a:hover {
-  color: $text-color-light;
-}
-
-.navbar {
-  background-color: darken($top-bottom-ribbon-bg, 10%);
-}
-
-.footer {
-  background-color: darken($top-bottom-ribbon-bg, 10%);
+button:hover {
+  background-color: darken($button-bg, 10%);
 }
