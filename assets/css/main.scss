@@ -132,3 +132,40 @@ body.dark-mode .navbar-nav {
   text-align: center; /* Center the text */
 }
 
+/* Footer Styling */
+.page__footer {
+  background-color: #222222; /* Dark gray background */
+  color: #ffffff; /* White text */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Ensure social media icons and links update correctly */
+.page__footer-follow {
+  background-color: #222222; /* Match footer background */
+  color: #ffffff; /* White text */
+}
+
+/* Footer links */
+.page__footer a {
+  color: #bbbbbb; /* Light gray for links */
+  text-decoration: none;
+}
+
+.page__footer a:hover {
+  color: #ffffff; /* White on hover */
+}
+
+/* Dark Mode Adjustments */
+body.dark-mode .page__footer {
+  background-color: #111111; /* Slightly darker in dark mode */
+  color: #ffffff;
+}
+
+body.dark-mode .page__footer a {
+  color: #bbbbbb;
+}
+
+body.dark-mode .page__footer a:hover {
+  color: #ffffff;
+}
