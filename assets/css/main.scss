@@ -58,7 +58,7 @@ $button-bg-dark: #555555;
 $button-text-dark: #ffffff;
 $button-hover-dark: #444444;
 $button-border-dark: #333333;
-$box-background-dark: #333333; /* Box background around buttons */
+$box-background-dark: #333333; /* Dark background for the box around buttons */
 
 /* Navbar Styling */
 .navbar {
@@ -71,7 +71,7 @@ $box-background-dark: #333333; /* Box background around buttons */
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Navbar Navigation Container (around buttons) */
+/* Navbar Navigation Container (box around buttons) */
 .navbar-nav {
   display: flex;
   align-items: center;
@@ -80,21 +80,6 @@ $box-background-dark: #333333; /* Box background around buttons */
   padding: 5px;
   border-radius: 5px;
   transition: background 0.3s ease;
-}
-
-/* Button Styling */
-.nav-button {
-  background-color: $button-bg-light;
-  color: $button-text-light;
-  padding: 8px 12px;
-  border-radius: 5px;
-  border: 1px solid $button-border-light;
-  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
-  cursor: pointer;
-}
-
-.nav-button:hover {
-  background-color: $button-hover-light;
 }
 
 /* Dark Mode Adjustments */
@@ -111,7 +96,22 @@ body.dark-mode .navbar {
 
 /* Dark Mode Navbar Navigation Container (box around buttons) */
 body.dark-mode .navbar-nav {
-  background-color: $box-background-dark;
+  background-color: $box-background-dark; /* Dark mode background for navigation box */
+}
+
+/* Button Styling */
+.nav-button {
+  background-color: $button-bg-light;
+  color: $button-text-light;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid $button-border-light;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: $button-hover-light;
 }
 
 /* Dark Mode Button Styling */
