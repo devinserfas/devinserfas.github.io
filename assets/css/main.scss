@@ -169,3 +169,36 @@ body.dark-mode .page__footer a {
 body.dark-mode .page__footer a:hover {
   color: #ffffff;
 }
+
+
+/* Default (Light Mode) Header */
+.masthead {
+  background-color: #222222; /* Dark gray header */
+  color: #ffffff; /* White text */
+  padding: 20px 0;
+}
+
+/* Navigation Links in Header */
+.masthead a {
+  color: #bbbbbb; /* Light gray for links */
+  text-decoration: none;
+}
+
+.masthead a:hover {
+  color: #ffffff; /* White on hover */
+}
+
+/* Dark Mode Header */
+body.dark-mode .masthead {
+  background-color: #111111; /* Even darker in dark mode */
+  color: #ffffff;
+}
+
+/* Ensure nav links in dark mode */
+body.dark-mode .masthead a {
+  color: #bbbbbb;
+}
+
+body.dark-mode .masthead a:hover {
+  color: #ffffff;
+}
