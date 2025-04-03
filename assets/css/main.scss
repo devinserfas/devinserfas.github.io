@@ -45,18 +45,20 @@
 /* Define color variables for light mode */
 $background-light: #ffffff;
 $text-light: #333333;
-$link-light: #444444;
-$link-hover-light: #222222;
 $button-bg-light: #f0f0f0;
 $button-text-light: #333333;
+$button-hover-light: #e0e0e0;
+$button-border-light: #d0d0d0;
+$box-background-light: #f9f9f9; /* Box background around buttons */
 
 /* Define color variables for dark mode */
 $background-dark: #222222;
 $text-dark: #ffffff;
-$link-dark: #dddddd;
-$link-hover-dark: #ffffff;
 $button-bg-dark: #555555;
 $button-text-dark: #ffffff;
+$button-hover-dark: #444444;
+$button-border-dark: #333333;
+$box-background-dark: #333333; /* Box background around buttons */
 
 /* Navbar Styling */
 .navbar {
@@ -69,33 +71,30 @@ $button-text-dark: #ffffff;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Navigation links */
+/* Navbar Navigation Container (around buttons) */
 .navbar-nav {
   display: flex;
   align-items: center;
-  gap: 15px; /* Spacing between items */
+  gap: 15px;
+  background-color: $box-background-light; /* Light mode box around buttons */
+  padding: 5px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
 }
 
-/* Header (Masthead) */
-.masthead {
-  background-color: $background-light;
-  color: $text-light;
-  padding: 20px 0;
-  transition: background 0.3s ease, color 0.3s ease;
+/* Button Styling */
+.nav-button {
+  background-color: $button-bg-light;
+  color: $button-text-light;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid $button-border-light;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+  cursor: pointer;
 }
 
-/* Header Navigation Links */
-.masthead a,
-.navbar a {
-  color: $link-light;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.masthead a:hover,
-.navbar a:hover {
-  color: $link-hover-light;
+.nav-button:hover {
+  background-color: $button-hover-light;
 }
 
 /* Dark Mode Adjustments */
@@ -110,24 +109,57 @@ body.dark-mode .navbar {
   color: $text-dark;
 }
 
+/* Dark Mode Navbar Navigation Container (box around buttons) */
+body.dark-mode .navbar-nav {
+  background-color: $box-background-dark;
+}
+
+/* Dark Mode Button Styling */
+body.dark-mode .nav-button {
+  background-color: $button-bg-dark;
+  color: $button-text-dark;
+  border: 1px solid $button-border-dark;
+}
+
+body.dark-mode .nav-button:hover {
+  background-color: $button-hover-dark;
+}
+
 /* Dark Mode Header */
+.masthead {
+  background-color: $background-light;
+  color: $text-light;
+  padding: 20px 0;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Header Links */
+.masthead a {
+  color: $text-light;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.masthead a:hover {
+  color: darken($text-light, 10%);
+}
+
+/* Dark Mode Adjustments for Header Links */
 body.dark-mode .masthead {
   background-color: $background-dark;
   color: $text-dark;
 }
 
-/* Dark Mode Navigation Links */
-body.dark-mode .masthead a,
-body.dark-mode .navbar a {
-  color: $link-dark;
+body.dark-mode .masthead a {
+  color: $text-dark;
 }
 
-body.dark-mode .masthead a:hover,
-body.dark-mode .navbar a:hover {
-  color: $link-hover-dark;
+body.dark-mode .masthead a:hover {
+  color: lighten($text-dark, 20%);
 }
 
-/* Dark Mode Footer */
+/* Footer Styling */
 .page__footer {
   background-color: $background-light;
   color: $text-light;
@@ -159,8 +191,3 @@ body.dark-mode .page__footer a {
 body.dark-mode .page__footer a:hover {
   color: lighten($text-dark, 40%);
 }
-
-body.dark-mode .page__footer a:hover {
-  color: lighten($text-dark, 40%);
-}
-
