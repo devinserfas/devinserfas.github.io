@@ -41,51 +41,55 @@
 @import "print";
 @import "custom-dark";
 
-/* Define color variables for light mode */
+
+/* Define color variables */
 $background-light: #ffffff;
 $text-light: #333333;
 $button-bg-light: #f0f0f0;
 $button-text-light: #333333;
 
-/* Define color variables for dark mode */
 $background-dark: #222222;
 $text-dark: #ffffff;
 $button-bg-dark: #555555;
 $button-text-dark: #ffffff;
 
-/* Navbar Fix */
+/* Ensure root variables for easy access */
+:root {
+  --background-color: #{$background-light};
+  --text-color: #{$text-light};
+  --button-bg-color: #{$button-bg-light};
+  --button-text-color: #{$button-text-light};
+}
+
+/* Dark mode variables */
+body.dark-mode {
+  --background-color: #{$background-dark};
+  --text-color: #{$text-dark};
+  --button-bg-color: #{$button-bg-dark};
+  --button-text-color: #{$button-text-dark};
+}
+
+/* Navbar Styling */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Ensures space between left and right elements */
+  justify-content: space-between; /* Space between left and right items */
   align-items: center;
-  background-color: $background-dark;
-  color: $text-dark;
+  background-color: var(--background-color);
+  color: var(--text-color);
   padding: 10px 20px;
 }
 
-/* Apply background color fix for the navigation bar */
-.navbar, .masthead {
-  background-color: $background-dark;
-}
-
-/* Fix for container behind navigation buttons & dark mode toggle */
+/* Navigation links */
 .navbar-nav {
-  background-color: $background-dark; /* Ensure it updates */
-  color: $text-dark;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Spacing between items */
 }
 
-/* Fix for dark mode when active */
-body.dark-mode .navbar,
-body.dark-mode .masthead,
-body.dark-mode .navbar-nav {
-  background-color: $background-dark;
-  color: $text-dark;
-}
-
-/* Style for navigation buttons */
+/* Style navigation buttons */
 .nav-button {
-  background-color: $button-bg-dark;
-  color: $button-text-dark;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
   padding: 8px 12px;
   border-radius: 5px;
   transition: background 0.3s ease, color 0.3s ease;
@@ -94,111 +98,90 @@ body.dark-mode .navbar-nav {
 }
 
 .nav-button:hover {
-  background-color: darken($button-bg-dark, 10%);
+  background-color: darken(var(--button-bg-color), 10%);
 }
 
-/* Style the dark mode toggle button */
+/* Dark Mode Toggle Styling */
+.theme-container {
+  margin-left: auto; /* Push toggle to the right */
+}
+
 .theme-label {
   display: inline-flex;
   align-items: center;
   cursor: pointer;
   padding: 8px 12px;
-  background-color: $button-bg-dark;
-  color: $button-text-dark;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
   border-radius: 5px;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-
-/* Footer Styling */
-.site-footer {
-  background-color: #222222; /* Dark gray background */
-  color: #ffffff; /* White text for contrast */
-  padding: 20px 0;
+.theme-label:hover {
+  background-color: darken(var(--button-bg-color), 10%);
 }
 
-/* Links inside the footer */
-.site-footer a {
-  color: #bbbbbb; /* Light gray for links */
-  text-decoration: none;
+/* Hide default checkbox */
+.theme-checkbox {
+  display: none;
 }
 
-.site-footer a:hover {
-  color: #ffffff; /* White on hover */
-}
-
-/* Footer text alignment */
-.footer-col {
-  text-align: center; /* Center the text */
-}
-
-/* Footer Styling */
-.page__footer {
-  background-color: #222222; /* Dark gray background */
-  color: #ffffff; /* White text */
+/* Header Styling */
+.masthead {
+  background-color: var(--background-color);
+  color: var(--text-color);
   padding: 20px 0;
   text-align: center;
 }
 
-/* Ensure social media icons and links update correctly */
-.page__footer-follow {
-  background-color: #222222; /* Match footer background */
-  color: #ffffff; /* White text */
-}
-
-/* Footer links */
-.page__footer a {
-  color: #bbbbbb; /* Light gray for links */
-  text-decoration: none;
-}
-
-.page__footer a:hover {
-  color: #ffffff; /* White on hover */
-}
-
-/* Dark Mode Adjustments */
-body.dark-mode .page__footer {
-  background-color: #111111; /* Slightly darker in dark mode */
-  color: #ffffff;
-}
-
-body.dark-mode .page__footer a {
-  color: #bbbbbb;
-}
-
-body.dark-mode .page__footer a:hover {
-  color: #ffffff;
-}
-
-
-/* Default (Light Mode) Header */
-.masthead {
-  background-color: #222222; /* Dark gray header */
-  color: #ffffff; /* White text */
-  padding: 20px 0;
-}
-
-/* Navigation Links in Header */
 .masthead a {
-  color: #bbbbbb; /* Light gray for links */
+  color: var(--text-color);
   text-decoration: none;
 }
 
 .masthead a:hover {
-  color: #ffffff; /* White on hover */
-}
-
-/* Dark Mode Header */
-body.dark-mode .masthead {
-  background-color: #111111; /* Even darker in dark mode */
   color: #ffffff;
 }
 
-/* Ensure nav links in dark mode */
-body.dark-mode .masthead a {
+/* Footer Styling */
+.page__footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Footer links */
+.page__footer a {
   color: #bbbbbb;
+  text-decoration: none;
 }
 
-body.dark-mode .masthead a:hover {
+.page__footer a:hover {
   color: #ffffff;
 }
+
+/* Footer social icons */
+.page__footer-follow {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Dark Mode Adjustments */
+body.dark-mode .page__footer,
+body.dark-mode .masthead,
+body.dark-mode .navbar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Ensure all links remain visible in dark mode */
+body.dark-mode a {
+  color: #dddddd;
+}
+
+body.dark-mode a:hover {
+  color: #ffffff;
+}
+
+
