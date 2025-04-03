@@ -191,3 +191,36 @@ body.dark-mode .page__footer a {
 body.dark-mode .page__footer a:hover {
   color: lighten($text-dark, 40%);
 }
+
+/* Hide the checkbox for dark mode toggle */
+.theme-checkbox {
+  display: none; /* Hide the checkbox element */
+}
+
+/* Style the label to act as the dark mode toggle button */
+.theme-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: $button-bg-light;
+  color: $button-text-light;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode toggle appearance when dark mode is activated */
+body.dark-mode .theme-label {
+  background-color: $button-bg-dark;
+  color: $button-text-dark;
+}
+
+/* Hover effect for dark mode toggle */
+.theme-label:hover {
+  background-color: $button-hover-light;
+}
+
+/* Dark Mode Hover for toggle button */
+body.dark-mode .theme-label:hover {
+  background-color: $button-hover-dark;
+}
