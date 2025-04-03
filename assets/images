@@ -1,1 +1,1 @@
-<img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Profile Picture" id="profile-pic" class="profile-pic">
+<img src="{{ site.baseurl }}/images/headshot.png" alt="Profile Picture" id="profile-pic" class="profile-pic">
