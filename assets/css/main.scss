@@ -55,7 +55,7 @@ $box-background-light: #f9f9f9; /* Box background around buttons */
 $background-dark: #222222;
 $text-dark: #ffffff;
 $button-bg-dark: #555555;
-$button-text-dark: #ffffff;
+$button-text-dark: #333333;
 $button-hover-dark: #444444;
 $button-border-dark: #333333;
 $box-background-dark: #333333; /* Dark background for the box around buttons */
@@ -156,7 +156,7 @@ body.dark-mode .masthead a {
 }
 
 body.dark-mode .masthead a:hover {
-  color: lighten($text-dark, 20%);
+  color: lighten($text-dark, 50%);
 }
 
 /* Footer Styling */
