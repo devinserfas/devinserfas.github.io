@@ -45,12 +45,16 @@
 /* Define color variables for light mode */
 $background-light: #ffffff;
 $text-light: #333333;
+$link-light: #444444;
+$link-hover-light: #222222;
 $button-bg-light: #f0f0f0;
 $button-text-light: #333333;
 
 /* Define color variables for dark mode */
 $background-dark: #222222;
 $text-dark: #ffffff;
+$link-dark: #dddddd;
+$link-hover-dark: #ffffff;
 $button-bg-dark: #555555;
 $button-text-dark: #ffffff;
 
@@ -72,48 +76,29 @@ $button-text-dark: #ffffff;
   gap: 15px; /* Spacing between items */
 }
 
-/* Dark Mode Toggle Container */
-.theme-container {
-  margin-left: auto; /* Push dark mode toggle to the right */
-}
-
-/* Navigation Buttons */
-.nav-button {
-  background-color: $button-bg-light;
-  color: $button-text-light;
-  padding: 8px 12px;
-  border-radius: 5px;
-  transition: background 0.3s ease, color 0.3s ease;
-  border: none;
-  cursor: pointer;
-}
-
-.nav-button:hover {
-  background-color: darken($button-bg-light, 10%);
-}
-
-/* Dark Mode Toggle Button */
-.theme-label {
-  display: inline-flex;
-  align-items: center;
-  cursor: pointer;
-  padding: 8px 12px;
-  background-color: $button-bg-light;
-  color: $button-text-light;
-  border-radius: 5px;
+/* Header (Masthead) */
+.masthead {
+  background-color: $background-light;
+  color: $text-light;
+  padding: 20px 0;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-.theme-label:hover {
-  background-color: darken($button-bg-light, 10%);
+/* Header Navigation Links */
+.masthead a,
+.navbar a {
+  color: $link-light;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-/* Hide default checkbox */
-.theme-checkbox {
-  display: none;
+.masthead a:hover,
+.navbar a:hover {
+  color: $link-hover-light;
 }
 
-/* Apply Dark Mode Styles */
+/* Dark Mode Adjustments */
 body.dark-mode {
   background-color: $background-dark;
   color: $text-dark;
@@ -125,48 +110,21 @@ body.dark-mode .navbar {
   color: $text-dark;
 }
 
-/* Dark Mode Navigation Buttons */
-body.dark-mode .nav-button {
-  background-color: $button-bg-dark;
-  color: $button-text-dark;
-}
-
-body.dark-mode .nav-button:hover {
-  background-color: lighten($button-bg-dark, 10%);
-}
-
-/* Dark Mode Toggle Button */
-body.dark-mode .theme-label {
-  background-color: $button-bg-dark;
-  color: $button-text-dark;
-}
-
-body.dark-mode .theme-label:hover {
-  background-color: lighten($button-bg-dark, 10%);
-}
-
 /* Dark Mode Header */
-.masthead {
-  background-color: $background-light;
-  color: $text-light;
-  padding: 20px 0;
-  transition: background 0.3s ease, color 0.3s ease;
-}
-
-/* Dark Mode Header Links */
-.masthead a {
-  color: $text-light;
-  text-decoration: none;
-}
-
-.masthead a:hover {
-  color: darken($text-light, 10%);
-}
-
-/* Apply Dark Mode to Header */
 body.dark-mode .masthead {
   background-color: $background-dark;
   color: $text-dark;
+}
+
+/* Dark Mode Navigation Links */
+body.dark-mode .masthead a,
+body.dark-mode .navbar a {
+  color: $link-dark;
+}
+
+body.dark-mode .masthead a:hover,
+body.dark-mode .navbar a:hover {
+  color: $link-hover-dark;
 }
 
 /* Dark Mode Footer */
@@ -196,6 +154,10 @@ body.dark-mode .page__footer {
 
 body.dark-mode .page__footer a {
   color: lighten($text-dark, 20%);
+}
+
+body.dark-mode .page__footer a:hover {
+  color: lighten($text-dark, 40%);
 }
 
 body.dark-mode .page__footer a:hover {
