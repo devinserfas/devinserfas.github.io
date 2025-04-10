@@ -238,10 +238,10 @@ body.dark-mode .theme-label:hover {
 }
 
 .js {
-  background-color: $background-ligh !important;
+  background-color: $background-light !important;
 }
 
-.dark-mode .js {
+body.dark-mode .js {
   background-color: $background-dark !important;
 }
 
