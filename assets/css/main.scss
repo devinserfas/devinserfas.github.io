@@ -237,6 +237,10 @@ body.dark-mode .theme-label:hover {
   background-color: black !important;
 }
 
+.js {
+  background-color: $background-ligh !important;
+}
+
 body.dark-mode .js {
   background-color: $background-dark !important;
 }
