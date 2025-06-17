@@ -245,3 +245,13 @@ body.dark-mode .js {
   background-color: $background-dark !important;
 }
 
+html, body {
+  background-color: $background-light;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark-mode {
+  background-color: $background-dark;
+}
