@@ -225,30 +225,14 @@ body.dark-mode .theme-label:hover {
   background-color: $button-hover-dark;
 }
 
-.wrapper {
-  background-color: black !important;  /* Change floating background to black */
-}
-
-.greedy-nav {
-  background-color: transparent !important;
-}
-
-.site {
-  background-color: black !important;
-}
-
-.js {
-  background-color: $background-light !important;
-}
-
-body.dark-mode .js {
-  background-color: $background-dark !important;
-}
-
-html, body {
+/* Set base background colors to fill beyond content */
+html {
   background-color: $background-light;
-  min-height: 100%;
-  height: 100%;
+}
+
+body {
+  background-color: $background-light;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -257,12 +241,28 @@ body.dark-mode {
   background-color: $background-dark;
 }
 
+html.dark-mode {
+  background-color: $background-dark;
+}
+
+/* Prevent white patches inside content containers */
+.wrapper,
+.site,
 .page,
 .page__content {
   background-color: transparent !important;
 }
 
-body.dark-mode .page,
-body.dark-mode .page__content {
+/* Ensure the main JavaScript root behaves correctly */
+.js {
+  background-color: $background-light !important;
+}
+
+body.dark-mode .js {
   background-color: $background-dark !important;
+}
+
+/* Optional: Nav transparency fix */
+.greedy-nav {
+  background-color: transparent !important;
 }
