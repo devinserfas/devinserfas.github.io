@@ -225,9 +225,13 @@ body.dark-mode .theme-label:hover {
   background-color: $button-hover-dark;
 }
 
-/* Set base background colors to fill beyond content */
+/* Set base background colors */
 html {
   background-color: $background-light;
+}
+
+html.dark-mode {
+  background-color: $background-dark;
 }
 
 body {
@@ -235,17 +239,15 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body.dark-mode {
   background-color: $background-dark;
 }
 
-html.dark-mode {
-  background-color: $background-dark;
-}
-
-/* Prevent white patches inside content containers */
+/* Prevent white patches in layout containers */
 .wrapper,
 .site,
 .page,
@@ -253,7 +255,7 @@ html.dark-mode {
   background-color: transparent !important;
 }
 
-/* Ensure the main JavaScript root behaves correctly */
+/* Ensure main JavaScript root behaves */
 .js {
   background-color: $background-light !important;
 }
@@ -262,7 +264,7 @@ body.dark-mode .js {
   background-color: $background-dark !important;
 }
 
-/* Optional: Nav transparency fix */
+/* Optional: Transparent navigation bar */
 .greedy-nav {
   background-color: transparent !important;
 }
