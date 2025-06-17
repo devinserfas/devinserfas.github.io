@@ -209,53 +209,46 @@ body.dark-mode .page__footer a:hover {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Dark mode toggle appearance when dark mode is activated */
+/* === DARK MODE TOGGLE === */
 body.dark-mode .theme-label {
   background-color: $button-bg-dark;
   color: $button-text-dark;
 }
 
-/* Hover effect for dark mode toggle */
 .theme-label:hover {
   background-color: $button-hover-light;
 }
 
-/* Dark Mode Hover for toggle button */
 body.dark-mode .theme-label:hover {
   background-color: $button-hover-dark;
 }
 
-/* Set base background colors */
-html {
-  background-color: $background-light;
-}
-
-html.dark-mode {
-  background-color: $background-dark;
-}
-
-body {
+/* === BACKGROUND AND LAYOUT === */
+html, body {
   background-color: $background-light;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
-body.dark-mode {
+body.dark-mode,
+html.dark-mode {
   background-color: $background-dark;
 }
 
-/* Prevent white patches in layout containers */
+/* Ensure main layout containers don't block scroll */
 .wrapper,
 .site,
 .page,
 .page__content {
   background-color: transparent !important;
+  min-height: auto;
+  height: auto !important;
+  overflow: visible !important;
 }
 
-/* Ensure main JavaScript root behaves */
+/* JavaScript root container */
 .js {
   background-color: $background-light !important;
 }
@@ -264,7 +257,7 @@ body.dark-mode .js {
   background-color: $background-dark !important;
 }
 
-/* Optional: Transparent navigation bar */
+/* Transparent nav */
 .greedy-nav {
   background-color: transparent !important;
 }
