@@ -237,15 +237,24 @@ html.dark-mode {
   background-color: $background-dark;
 }
 
-/* Ensure main layout containers don't block scroll */
+/* Ensure layout containers stretch and scroll correctly */
 .wrapper,
 .site,
-.page,
+.page {
+  background-color: black !important;
+  min-height: 100vh;
+}
+
+body.dark-mode .wrapper,
+body.dark-mode .site,
+body.dark-mode .page {
+  background-color: $background-dark !important;
+}
+
+/* Allow scrollable page content without cutting off */
 .page__content {
   background-color: transparent !important;
-  min-height: auto;
-  height: auto !important;
-  overflow: visible !important;
+  padding-bottom: 100px; /* prevent footer overlap */
 }
 
 /* JavaScript root container */
