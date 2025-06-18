@@ -209,55 +209,53 @@ body.dark-mode .page__footer a:hover {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* === DARK MODE TOGGLE === */
+/* Dark mode toggle appearance when dark mode is activated */
 body.dark-mode .theme-label {
   background-color: $button-bg-dark;
   color: $button-text-dark;
 }
 
+/* Hover effect for dark mode toggle */
 .theme-label:hover {
   background-color: $button-hover-light;
 }
 
+/* Dark Mode Hover for toggle button */
 body.dark-mode .theme-label:hover {
   background-color: $button-hover-dark;
 }
 
-/* === BACKGROUND AND LAYOUT === */
-html, body {
+/* Set base background colors */
+html {
+  background-color: $background-light;
+}
+
+html.dark-mode {
+  background-color: $background-dark;
+}
+
+body {
   background-color: $background-light;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
-body.dark-mode,
-html.dark-mode {
+body.dark-mode {
   background-color: $background-dark;
 }
 
-/* Ensure layout containers stretch and scroll correctly */
+/* Prevent white patches in layout containers */
 .wrapper,
 .site,
-.page {
-  background-color: black !important;
-  min-height: 100vh;
-}
-
-body.dark-mode .wrapper,
-body.dark-mode .site,
-body.dark-mode .page {
-  background-color: $background-dark !important;
-}
-
-/* Allow scrollable page content without cutting off */
+.page,
 .page__content {
   background-color: transparent !important;
-  padding-bottom: 100px; /* prevent footer overlap */
 }
 
-/* JavaScript root container */
+/* Ensure main JavaScript root behaves */
 .js {
   background-color: $background-light !important;
 }
@@ -266,7 +264,7 @@ body.dark-mode .js {
   background-color: $background-dark !important;
 }
 
-/* Transparent nav */
+/* Optional: Transparent navigation bar */
 .greedy-nav {
   background-color: transparent !important;
 }
