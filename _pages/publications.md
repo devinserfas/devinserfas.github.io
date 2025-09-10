@@ -8,6 +8,8 @@ author_profile: true
 Publications
 ------
 
+Serfas, D. A. 2025. Harvesting Benefits: Exploring the Effects of Second-Best Policies on Enhancing Soil Organic Carbon Stocks in Agriculture. *American Journal of Agricultural Economics (Forthcoming).*
+
 Serfas, D. A. 2025. The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity and Profit. *Australian Journal of Agricultural and Resource Economics*, 0:1-25. [(Link)](https://onlinelibrary.wiley.com/doi/10.1111/1467-8489.70028)
 
 Alston, J. M., Pardey, P. G., Serfas, D., and S. Wang. 2023. Slow Magic: Agricultural Versus Industrial R&D Lag Models. *Annual Review of Resource Economics*, 15:1. [(Link)](https://www.annualreviews.org/doi/pdf/10.1146/annurev-resource-111820-034312)
@@ -24,6 +26,8 @@ Serfas, D. and R. Gray. 2019. An Evaluation of Value Creation Models for Pulses 
 Working Papers
 ------
 
-A New Field-Level Measure of the Stock of Soil Organic Carbon and Value of Carbon Sequestration
+Economic Valuation of Carbon Sequestration from Canola Production and Zero-Tillage Adoption in Saskatchewan
 
-Harvesting Benefits: Exploring the Effects of Second-Best Policies on Enhancing Soil Organic Carbon Stocks in Agriculture
+The Economics of Plant Variety Registration: Non-Tariff Trade Barriers in Canada *(with Madeline Turland)*
+
+
