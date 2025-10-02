@@ -5,6 +5,9 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+[*Sask Wheat Newsletter:*](https://saskwheat.ca/wp-content/uploads/2025/09/WEB_Wheatfield_OCT_25.pdf) Crop rotations that pay now and for decades to come *(2025)*
+---
+
 [*Folio:*](https://www.ualberta.ca/en/folio/2025/09/science-based-crop-rotation-could-boost-profits-protect-soil.html) Science-based crop rotation could boost profits and protect soil *(2025)* 
 ---
 
