@@ -8,7 +8,7 @@ author_profile: true
 Publications
 ------
 
-Serfas, D. A. 2025. Harvesting Benefits: Exploring the Effects of Second-Best Policies on Enhancing Soil Organic Carbon Stocks in Agriculture. *American Journal of Agricultural Economics*, 2025; 1-35. [(Link)](https://onlinelibrary.wiley.com/doi/10.1111/ajae.70020)
+Serfas, D. A. 2025. Harvesting Benefits: Exploring the Effects of Second-Best Policies on Enhancing Soil Organic Carbon Stocks in Agriculture. *American Journal of Agricultural Economics*, 1-35. [(Link)](https://onlinelibrary.wiley.com/doi/10.1111/ajae.70020)
 
 Serfas, D. A. 2025. The Consequences of Soil Organic Carbon for Crop Yield, Farm Productivity and Profit. *Australian Journal of Agricultural and Resource Economics*, 0:1-25. [(Link)](https://onlinelibrary.wiley.com/doi/10.1111/1467-8489.70028)
 
