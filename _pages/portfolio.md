@@ -5,6 +5,9 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+[*GrainsWest:*](https://grainswest.com/2026/03/rotation-rethink/) Rotation Rethink *(2026)*
+---
+
 [*Sask Wheat Newsletter:*](https://saskwheat.ca/wp-content/uploads/2025/09/WEB_Wheatfield_OCT_25.pdf) Crop rotations that pay now and for decades to come *(2025)*
 ---
 
