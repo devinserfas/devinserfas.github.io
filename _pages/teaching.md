@@ -7,7 +7,7 @@ author_profile: true
 
 ***Instructor:***
 
- - **Advanced Management Methods and Applications for Agri-Food, Fashion and Resource Businesses** (AREC 423) *University of Alberta*
+ - **Advanced Management Methods and Applications for Agri-Food, Fashion and Resource Businesses** (AREC 423) *University of Alberta, Winter Semester 2025*
 
  - **Intermediate Microeconomics** (ARE 100B) *University of California, Davis, Fall Quarter 2023*
 
