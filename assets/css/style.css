@@ -2,7 +2,7 @@
 :root { --surface: #fff; --ink: #26342f; --muted: #55645d; --line: #dde4df; --accent: #276347; }
 html.dark-mode { --surface: #19211e; --ink: #ecf1ed; --muted: #bac9bf; --line: #43564a; --accent: #9ed6b1; color-scheme: dark; }
 html { background: var(--surface); }
-body { background: var(--surface); color: var(--ink); min-height: 100vh; padding-bottom: 0; margin-bottom: 0 !important; display: flex; flex-direction: column; }
+body { background: var(--surface); color: var(--ink); min-height: 100vh; padding-bottom: 0; margin-bottom: 0; display: flex; flex-direction: column; }
 a { color: var(--accent); }
 a:visited { color: var(--accent); }
 a:hover { text-decoration: underline; }

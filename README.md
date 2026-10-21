@@ -27,6 +27,8 @@ bundle exec jekyll serve
 
 Review changes on a branch before merging into the GitHub Pages publishing branch.
 
+Pull requests run **Website checks**: a Jekyll build and browser checks at 320, 390, 768, 1024 and 1440 pixels, including light/dark mode, navigation, profile links and redirects. Download the `website-layout-screenshots` artifact from the Actions run to review the rendered pages. These checks do not deploy the site.
+
 ---
 
 ## Original AcademicPages template documentation

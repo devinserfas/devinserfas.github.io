@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const { chromium } = require(process.env.SITE_PLAYWRIGHT_PATH || 'playwright');
 const origin = 'http://127.0.0.1:4000';
+const allErrors = [];
 const routes = ['/', '/publications/', '/teaching/', '/portfolio/'];
 (async () => {
   const browser = await chromium.launch();
@@ -12,7 +13,7 @@ const routes = ['/', '/publications/', '/teaching/', '/portfolio/'];
       const context = await browser.newContext({ viewport: { width, height: 1000 }, reducedMotion: 'reduce' });
       const page = await context.newPage();
       const errors = [];
-      page.on('pageerror', error => errors.push(error.message));
+      page.on('pageerror', error => errors.push(error.stack || error.message));
       for (const route of routes) {
         const response = await page.goto(origin + route);
         assert.equal(response.status(), 200, route);
@@ -27,7 +28,7 @@ const routes = ['/', '/publications/', '/teaching/', '/portfolio/'];
         for (const dark of [false, true]) {
           if ((await page.locator('.theme-toggle').getAttribute('aria-pressed')) !== String(dark)) await page.locator('.theme-toggle').click();
           assert.equal(await page.locator('html').evaluate(el => el.classList.contains('dark-mode')), dark);
-          if (width === 390 || width === 1440) {
+          if (width === 320 || width === 390 || width === 1024 || width === 1440) {
             const name = route === '/' ? 'about' : route.split('/')[1];
             await page.screenshot({ path: `layout-screenshots/${name}-${width}-${dark ? 'dark' : 'light'}.png`, fullPage: true });
           }
@@ -41,9 +42,10 @@ const routes = ['/', '/publications/', '/teaching/', '/portfolio/'];
         assert.equal(await page.locator('.author__urls').isVisible(), true);
         await page.keyboard.press('Tab');
       }
-      assert.deepEqual(errors, [], `JavaScript errors at ${width}px`);
+      allErrors.push(...errors.map(error => ({ width, error })));
       await context.close();
     }
+    assert.deepEqual(allErrors, [], 'JavaScript errors');
     const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
     await context.addInitScript(() => {
       Object.defineProperty(window, 'localStorage', { get() { throw new Error('Storage unavailable'); } });
