@@ -24,6 +24,11 @@ const routes = ['/', '/publications/', '/teaching/', '/portfolio/'];
         assert.equal(await page.locator('a[href="mailto:serfas@ualberta.ca"]').count() > 0, true);
         assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, `${route} overflows at ${width}px`);
         assert.equal(await page.locator('img').evaluateAll(images => images.every(img => img.complete && img.naturalWidth > 0)), true, `${route} has missing images`);
+        if (width >= 1024) {
+          const sidebar = await page.locator('.sidebar').boundingBox();
+          const heading = await page.locator('#main .page__title').boundingBox();
+          assert.ok(heading.x >= sidebar.x + sidebar.width - 1, `${route} content must sit beside the desktop sidebar`);
+        }
         for (const link of await page.locator('nav a').all()) assert.equal(await link.isVisible(), true);
         for (const dark of [false, true]) {
           if ((await page.locator('.theme-toggle').getAttribute('aria-pressed')) !== String(dark)) await page.locator('.theme-toggle').click();

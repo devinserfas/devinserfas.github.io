@@ -32,6 +32,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .page__footer a { color: var(--muted); }
 .dark-mode .author__urls { background: var(--surface); border-color: var(--line); }
 .dark-mode .author__urls a { color: var(--ink); }
+.dark-mode .author__urls .fa { color: var(--muted); }
+.dark-mode .author__urls::after { border-bottom-color: var(--surface); }
 .dark-mode .btn--inverse { color: var(--ink) !important; background: var(--surface) !important; border: 1px solid var(--line) !important; }
 .dark-mode hr, .dark-mode table, .dark-mode th, .dark-mode td { border-color: var(--line); }
 .dark-mode pre, .dark-mode code, .dark-mode .highlight { background: #222e27; color: var(--ink); }
@@ -41,7 +43,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
   .primary-nav { gap: .5rem 1rem; }
   .primary-nav__links { order: 3; width: 100%; gap: .25rem 1.25rem; }
   .theme-toggle { font-size: .75rem; }
-  .author__avatar img { width: 100px; height: 100px; }
+  .sidebar [itemtype="http://schema.org/Person"] { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: .5rem 1rem; }
+  .sidebar div.author__avatar { display: block; width: auto; grid-row: 1 / span 2; }
+  .author__avatar img { width: 80px; height: 80px; }
+  .author__content { display: block; padding: 0; }
+  .author__urls-wrapper { display: block; grid-column: 2; }
+  .author__urls { width: max-content; max-width: calc(100vw - 2rem); }
   .page__hero-image { max-height: 150px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
