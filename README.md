@@ -1,3 +1,38 @@
+# Devin Serfas — personal website
+
+Live site: https://devinserfas.github.io/
+
+## Editing the site
+
+| Content | File |
+| --- | --- |
+| Biography, education, contact | `_pages/about.md` |
+| Publications and working papers | `_pages/publications.md` |
+| Teaching | `_pages/teaching.md` |
+| News articles | `_pages/portfolio.md` |
+| Navigation and CV link | `_data/navigation.yml` |
+| Profile photo, sidebar email and social links | `_config.yml` |
+| Site appearance | `assets/css/style.css` |
+
+Upload replacement PDFs to `files/` and update the relevant links. Use relative paths such as `/files/DEVIN_SERFAS_RESUME.pdf` for internal links.
+
+The sidebar uses the optimized `images/headshot.jpg`; the original PNG remains available. Keep customized appearance rules in `assets/css/style.css` rather than adding competing rules to the theme's Sass files.
+
+To preview with Ruby and Bundler installed:
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+
+Review changes on a branch before merging into the GitHub Pages publishing branch.
+
+Pull requests run **Website checks**: a Jekyll build and browser checks at 320, 390, 768, 1024 and 1440 pixels, including light/dark mode, navigation, profile links and redirects. Download the `website-layout-screenshots` artifact from the Actions run to review the rendered pages. These checks do not deploy the site.
+
+---
+
+## Original AcademicPages template documentation
+
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.

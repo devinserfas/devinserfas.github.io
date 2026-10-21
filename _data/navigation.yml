@@ -17,7 +17,7 @@ main:
  #   url: /year-archive/
     
   - title: "CV"
-    url: http://devinserfas.github.io/files/DEVIN_SERFAS_RESUME.pdf
+    url: /files/DEVIN_SERFAS_RESUME.pdf
     
  # - title: "Guide"
  #   url: /markdown/

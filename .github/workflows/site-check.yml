@@ -1,0 +1,36 @@
+name: Website checks
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Build local preview
+        run: |
+          printf 'url: "http://127.0.0.1:4000"\n' > /tmp/site-config.yml
+          bundle exec jekyll build --config _config.yml,/tmp/site-config.yml
+        env:
+          JEKYLL_ENV: production
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --prefix /tmp/site-check playwright@1.58.2
+      - run: /tmp/site-check/node_modules/.bin/playwright install --with-deps chromium
+      - name: Check responsive layouts and interactions
+        run: |
+          python3 -m http.server 4000 --directory _site > /tmp/site-server.log 2>&1 &
+          SITE_PLAYWRIGHT_PATH=/tmp/site-check/node_modules/playwright node scripts/check-site.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: website-layout-screenshots
+          path: layout-screenshots/
