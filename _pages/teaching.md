@@ -15,8 +15,8 @@ author_profile: true
 
  - **Intermediate Microeconomics** (ARE 100B) *University of California, Davis, Spring and Fall Quarters 2020*
 
-  - **Grain and Livestock Marketing** (AREC 343) *University of Saskatchewan, 2018*
+ - **Grain and Livestock Marketing** (AREC 343) *University of Saskatchewan, 2018*
 
-  - **Principles of Sales** (AREC 346) *University of Saskatchewan, 2017*
+ - **Principles of Sales** (AREC 346) *University of Saskatchewan, 2017*
 
 

@@ -1,56 +1,26 @@
 ---
 layout: compress
 ---
-
 {% include base_path %}
-
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/style.css">
+    <script src="{{ base_path }}/assets/js/scripts.js" defer></script>
   </head>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-    const currentTheme = localStorage.getItem('theme');
-
-    if (currentTheme) {
-      document.body.classList.add(currentTheme);
-
-      if (currentTheme === 'dark-mode') {
-        toggleSwitch.checked = true;
-      }
-    }
-
-    toggleSwitch.addEventListener('change', function (e) {
-      if (e.target.checked) {
-        document.body.classList.add('dark-mode');
-        localStorage.setItem('theme', 'dark-mode');
-      } else {
-        document.body.classList.remove('dark-mode');
-        localStorage.setItem('theme', '');
-      }
-    });
-  });
-</script>
-  <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
   <body>
-
+    <a class="skip-link" href="#main">Skip to content</a>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
     {{ content }}
-
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
     </div>
-
     {% include scripts.html %}
-
   </body>
 </html>

@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  image: https://devinserfas.github.io/images/canola_banner.png
+  image: canola_banner.png
 ---
 
 I am an Assistant Professor and [RDAR](https://rdar.ca/) Chair in Applied Agricultural Economics and Risk Management at the University of Alberta in the Department of Resource Economics and Environmental Sociology ([REES](https://www.ualberta.ca/resource-economics-environmental-sociology/index.html)) in Edmonton, Alberta. 
@@ -31,7 +31,7 @@ University of Saskatchewan
 Contact
 ------
 Devin Serfas <br />
-serfas@ualberta.ca <br />
+[serfas@ualberta.ca](mailto:serfas@ualberta.ca) <br />
 Department of Resource Economics and Environmental Sociology <br />
 Faculty of Agricultural, Life & Environmental Sciences <br />
 University of Alberta <br />
