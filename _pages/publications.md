@@ -18,6 +18,16 @@ Alston, J. M., Pardey, P. G., Serfas, D., and S. Wang. 2023. Slow Magic: Agricul
 
 Serfas, D., Gray, R., and P. Slade. 2018. Congestion and Distribution of Rents in Wheat Export Sector: A Canada–US Cross‐Border Comparison. *Canadian Journal of Agricultural Economics/Revue canadienne d'agroeconomie*, 66(2): 187-207. [(Link)](https://onlinelibrary.wiley.com/doi/pdf/10.1111/cjag.12171)
 
+Working Papers
+------
+
+The Long-Run On-Farm Benefits from Spring Wheat Breeding on the Canadian Prairies *(Draft coming soon)*
+
+Works in Progress
+------
+
+From Research Plots to Prairie Fields: Do Ultra-early Seeding and Enhanced Efficiency Fertilizers Pay?
+
 Reports
 ------
 
@@ -25,11 +35,7 @@ Alston, J. M. and D. Serfas. 2025. The Costs of Pierce’s Disease in the Califo
 
 Serfas, D. and R. Gray. 2019. An Evaluation of Value Creation Models for Pulses in western Canada. A report prepared for the Crop Development Center. Saskatoon, SK.
 
-Working Papers
-------
 
-Economic Valuation of Carbon Sequestration from Canola Production and Zero-Tillage Adoption in Saskatchewan
 
-The Economics of Plant Variety Registration: Non-Tariff Trade Barriers in Canada *(with Madeline Turland)*
 
 
