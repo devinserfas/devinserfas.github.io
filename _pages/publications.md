@@ -4,6 +4,16 @@ title: "Research"
 permalink: /publications/
 author_profile: true
 ---
+Working Papers
+------
+
+The Long-Run On-Farm Benefits from Spring Wheat Breeding on the Canadian Prairies *(Draft coming soon)*
+
+Works in Progress
+------
+
+From Research Plots to Prairie Fields: Do Ultra-early Seeding and Enhanced Efficiency Fertilizers Pay? [(poster)](/files/Ultraearly_EEFs_Poster.pdf)
+
 
 Publications
 ------
@@ -17,16 +27,6 @@ Serfas, D. A. 2025. The Consequences of Soil Organic Carbon for Crop Yield, Farm
 Alston, J. M., Pardey, P. G., Serfas, D., and S. Wang. 2023. Slow Magic: Agricultural Versus Industrial R&D Lag Models. *Annual Review of Resource Economics*, 15:1. [(Link)](https://www.annualreviews.org/doi/pdf/10.1146/annurev-resource-111820-034312)
 
 Serfas, D., Gray, R., and P. Slade. 2018. Congestion and Distribution of Rents in Wheat Export Sector: A Canada–US Cross‐Border Comparison. *Canadian Journal of Agricultural Economics/Revue canadienne d'agroeconomie*, 66(2): 187-207. [(Link)](https://onlinelibrary.wiley.com/doi/pdf/10.1111/cjag.12171)
-
-Working Papers
-------
-
-The Long-Run On-Farm Benefits from Spring Wheat Breeding on the Canadian Prairies *(Draft coming soon)*
-
-Works in Progress
-------
-
-From Research Plots to Prairie Fields: Do Ultra-early Seeding and Enhanced Efficiency Fertilizers Pay?
 
 Reports
 ------
