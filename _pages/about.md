@@ -24,7 +24,7 @@ University of California, Davis
 **MSc. in Agricultural Economics** *(2018)* <br />
 University of Saskatchewan
 
-**BSc. in Agribusiness** *(2016, Honors and Great Distinction)* <br />
+**BSc. in Agribusiness** *(2016, Honours and Great Distinction)* <br />
 University of Saskatchewan
 
 
