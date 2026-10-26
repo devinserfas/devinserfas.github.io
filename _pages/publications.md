@@ -12,7 +12,7 @@ The Long-Run On-Farm Benefits from Spring Wheat Breeding on the Canadian Prairie
 Works in Progress
 ------
 
-From Research Plots to Prairie Fields: Do Ultra-early Seeding and Enhanced Efficiency Fertilizers Pay? [(poster)](/files/Ultraearly_EEFs_Poster.pdf)
+From Research Plots to Prairie Fields: Do Ultra-early Seeding and Enhanced Efficiency Fertilizers Pay? [(Poster)](/files/Ultraearly_EEFs_Poster.pdf)
 
 
 Publications
