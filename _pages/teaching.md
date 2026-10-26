@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-***Instructor:***
+***Instructor***
 ------
  - **Advanced Management Methods and Applications for Agri-Food, Fashion and Resource Businesses** (AREC 423) *University of Alberta, Winter Semester 2026*
 
