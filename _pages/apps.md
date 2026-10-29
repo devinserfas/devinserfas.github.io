@@ -5,7 +5,7 @@ permalink: /apps/
 author_profile: true
 ---
 
-## Alberta Wheat Decision Tool
+## Alberta Spring Wheat Seeding and Fertilizer Decision Tool
 
 Explore how ultra-early seeding and enhanced-efficiency fertilizers could affect wheat yields and financial returns on your farm.
 
